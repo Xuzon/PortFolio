@@ -1,0 +1,53 @@
+VHDL "ROM_blank_modificada.vhd","picocode.vhd","picocode"
+ORG 0
+Sensor DSIN 01
+BrilloAnterior DSIN 02
+DiccionarioLuz DSIN 03
+BotonesLuz DSIN 04
+ActivarBotones DSIN 05
+medida_disponible DSIN 06
+
+PWM DSOUT 01
+DiccionarioLuzSalida DSOUT 02
+leer DSOUT 03
+medida_leida DSOUT 04
+
+	 LOAD s4,1
+	 LOAD s5,0
+main:
+	 IN sf,ActivarBotones
+	 COMP sf,0
+	 JUMP Z,leer_sensor
+	 JUMP leer_botones
+	 
+	 
+	 
+leer_sensor:
+	 OUT s4,leer
+	 OUT s5,leer
+	 
+esperar_sensor:
+	 IN s3,medida_disponible
+	 COMP s3,1
+	 JUMP NZ, esperar_sensor
+	 IN s0,Sensor
+	 OUT s4,medida_leida
+	 IN s1,BrilloAnterior
+	 JUMP calcularBrillo
+	 
+leer_botones:
+	 OUT s5,leer
+	 IN s0,BotonesLuz
+	 in s1,BrilloAnterior
+	 JUMP calcularBrillo
+	 
+calcularBrillo:
+	 OUT s0,DiccionarioLuzSalida
+	 IN s2,DiccionarioLuz
+	 COMP s2,s1
+	 JUMP Z,main
+	 JUMP salida
+
+salida:
+	 OUT s2,PWM
+	 JUMP main

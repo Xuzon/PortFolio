@@ -1,0 +1,59 @@
+﻿body{
+    background-image : url("Background.jpeg");
+    color : rgb(72,232,12);
+}
+h1,h3{
+    font-family : Rockwell;
+}
+h3{
+    font-size : 125%;
+}
+.tituloPrincipal{
+    margin-left : 100px;
+}
+
+.datoARellenar{
+    margin-top:10px;
+}
+.error{
+    color:red;
+}
+#TODO {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left :auto;
+    margin-right:auto;
+    width :785px;
+}
+
+input[type = "checkbox"]{
+    margin: 7px;
+}
+#musica,#comentarios,#metodosDeEnvio,.divisionOscura,.columna{
+    background-color: rgba(0,0,0,0.7);
+}
+#musica h3{
+    margin : 0px;
+}
+.dato_formulario{
+    margin: 7px;
+}
+.columna{
+    border: 20px;
+    border-style: solid;
+    border-color : rgba(0,0,0,0.7);
+    background-clip:padding-box;
+    display:table-cell;
+}
+
+#fraseTipoCodificacion{
+    margin-left : 20px;
+}
+a{
+    font-size : 200%;
+    color: white;
+}
+input[type="submit"],input[type="reset"]{
+     -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 150%;
+}

@@ -1,0 +1,126 @@
+﻿<html lang="es" >
+<head>
+    <meta charset="utf-8" />
+    <title>Musi Call</title>
+    <script type = "text/javascript" src="p1.js"></script>
+    <link rel="stylesheet" href="p1.css">
+    <link rel="icon" type="image/gif" href="favicon.gif" />
+</head>
+<body>
+    <div id="TODO">
+        <div class="tituloPrincipal">
+            <h1>Musi Call</h1>
+            <hr />
+        </div>
+        <form action="p1.php" method="POST" name="form1" id="form1" onsubmit="return validacion();">
+            <!--el onsubmit si devuelve un false no envia-->
+            <div class="division" id="datosPersonales">
+                <h3>Datos:</h3>
+                <div class="datoARellenar">
+                    <span>Usuario:</span>
+                    <span><input type="text" id="nombre" name="nombre" /></span>
+                </div>
+                <div class="datoARellenar">
+                    <span>Contraseña:</span>
+                    <span><input type="password" id="psswd" name="psswd"/></span>
+                    <span id="errorContrasenha" class="error" style="visibility:hidden">Contraseñas no coinciden</span>
+                </div>
+                <div class="datoARellenar">
+                    <span>Repite la contraseña:</span>
+                    <span><input type="password" id="chkpsswd" /></span>
+                </div>
+                <div class="datoARellenar">
+                    <span>Correo electrónico:</span>
+                    <span><input type="text" id="email" name="email"/></span>
+                    <span id="errorEmail" class="error" style="visibility:hidden">e-mail no válido</span>
+                </div>
+                <div class="datoARellenar">
+                    <span>Telefono(opcional):</span>
+                    <span><input type="text" id="tlf" name="tlf"/></span>
+                    <span id="errorTlf" class="error" style="visibility:hidden">Teléfono no valido</span>
+                </div>
+            </div>
+            <hr />
+            <div id="fotoDiv" class="division">
+                <h3>Foto:</h3>
+                Escoger una <B>foto</B> de perfil <input type="file" id="foto" />
+            </div>
+            <hr />
+            <div id="se" class="division">
+                <h3>Género:</h3>
+                <ul>
+                    <li><input type="radio" name="sexo" value="Hombre" id="hombre" /> Hombre</li>
+                    <li><input type="radio" name="sexo" value="Mujer" id="mujer" /> Mujer</li>
+                    <li><input type="radio" name="sexo" value="Prefiero no decirlo" id="ninguno" /> Prefiero no decirlo</li>
+                </ul>
+            </div>
+            <hr />
+            <div id="musica" class="division">
+                <h3>En que clase de música estás interesado?</h3>
+                <div class="lista" id="listaGeneros">
+                    <div class="columna" id ="columna1">
+                        <input type="checkbox" name="generoMusica[]" value="Rock" />Rock<br />
+                        <input type="checkbox" name="generoMusica[]" value="Metal" />Metal<br />
+                        <input type="checkbox" name="generoMusica[]" value ="Hardcore" />Hardcore<br />
+                        <input type="checkbox" name="generoMusica[]" value="Metalcore" />Metalcore<br />
+                        <input type="checkbox" name="generoMusica[]" value="Punk" />Punk<br />
+                    </div>
+                    <div class="columna" id ="columna1">
+                        <input type="checkbox" name="generoMusica[]" value="Pop" />Pop<br />
+                        <input type="checkbox" name="generoMusica[]" value="Easycore" />Easycore<br />
+                        <input type="checkbox" name="generoMusica[]" value="Electronica" />Electrónica en general<br />
+                        <input type="checkbox" name="generoMusica[]" value="Trance" />Trance<br />
+                        <input type="checkbox" name="generoMusica[]" value="Dance" />Dance<br />
+                    </div>
+                    <div class="columna" id ="columna1">
+                        <input type="checkbox" name="generoMusica[]" value="Dubstep" />Dubstep<br />
+                        <input type="checkbox" name="generoMusica[]" value="Clasica" />Clásica<br />
+                        <input type="checkbox" name="generoMusica[]" value="RetroWave" />RetroWave<br />
+                        <input type="checkbox" name="generoMusica[]" value="Reggae" />Reggae<br />
+                        <input type="checkbox" name="generoMusica[]" value="Otros" id="otrosChk" onclick="otros()" />Otros:
+                        <input type="text" name="otroEstilo" id="otroEstilo" disabled><br />
+                    </div>
+                </div>
+            </div> 
+            <div id="comentarios" class="division">
+                <hr />
+                <h3>Comentarios:</h3>
+                <textarea rows="5" cols="100" onclick="borrarArea()" id="textComentarios" name="textComentarios">Como podriamos mejorar?:</textarea>
+                <hr />
+            </div>
+            <div id="metodosDeEnvio" class="division">
+                    <span class="datoARellenar">
+                        <b>Método de envío:</b>
+                        <input type="radio" name="metodoDeEnvio" value="GET" id="GET" /> GET 
+                        <input type="radio" name="metodoDeEnvio" value="POST" id="POST" /> POST
+                        <br />
+                    </span>
+                    <span class="datoARellenar">
+                        <b>Tipo de codificación:</b>
+                        <select name="tipoCodificacion" id="tipoCodificacion">
+                            <option value=""></option>
+                            <option value="application/x-www-form-urlencoded">application/x-www-form-urlencoded</option>
+                            <option value="multipart/form-data">multipart/form-data</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="datoARellenar">
+                        <b>A que pagina?</b>
+                        <input type="radio" name="urlAEnviar" id="urlAEnviar1" value="p1.php"/> p1.php
+                        <input type="radio" name="urlAEnviar" id="urlAEnviar2" value="/~sintprof/p1.php"/> sintprof
+                    </span>
+                <br />
+                <b>Carlos Daniel Garrido Suárez</b>
+                <hr />
+            </div>
+            <div id="botones" class="division">
+                <span>
+                    <input type="submit" value = "Enviar"/>
+                    <input type="reset" value="Borrar" />
+                </span>
+            </div>
+        <input type="text" name="hora" id="hora" hidden/>
+        </form>
+    </div>
+</body>
+</html>
