@@ -1,8 +1,5 @@
-﻿  Moc'ing mwindow.h...
-  Generate moc_predefs.h
-  moc_mwindow.cpp
-  main.cpp
+﻿  Generate moc_predefs.h
   mwindow.cpp
-  Generating Code...
+mwindow.cpp(236): warning C4189: 'rNumber': local variable is initialized but not referenced
   Calculator.vcxproj -> D:\Projects\C++\Calculator\debug\Calculator.exe
   Calculator.vcxproj -> debug\Calculator.pdb (Full PDB)

@@ -43,6 +43,15 @@ public:
     QPushButton *BMultiply;
     QPushButton *BDivide;
     QLabel *lcd;
+    QPushButton *BReset;
+    QPushButton *BZero;
+    QPushButton *BDot;
+    QLabel *LState;
+    QPushButton *BSaveMemory;
+    QPushButton *BUseMemory;
+    QPushButton *BDeleteMemory;
+    QPushButton *BSubstractMemory;
+    QLabel *LMemoryState;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -51,7 +60,7 @@ public:
     {
         if (MWindow->objectName().isEmpty())
             MWindow->setObjectName(QStringLiteral("MWindow"));
-        MWindow->resize(223, 357);
+        MWindow->resize(288, 357);
         centralWidget = new QWidget(MWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         BNumeric1 = new QPushButton(centralWidget);
@@ -98,14 +107,52 @@ public:
         BDivide->setGeometry(QRect(80, 90, 31, 31));
         lcd = new QLabel(centralWidget);
         lcd->setObjectName(QStringLiteral("lcd"));
-        lcd->setGeometry(QRect(46, 12, 141, 61));
+        lcd->setGeometry(QRect(70, 10, 181, 61));
+        QFont font;
+        font.setPointSize(16);
+        lcd->setFont(font);
+        lcd->setFrameShape(QFrame::Box);
+        lcd->setFrameShadow(QFrame::Plain);
         lcd->setScaledContents(false);
         lcd->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lcd->setWordWrap(false);
+        BReset = new QPushButton(centralWidget);
+        BReset->setObjectName(QStringLiteral("BReset"));
+        BReset->setGeometry(QRect(40, 90, 31, 31));
+        BZero = new QPushButton(centralWidget);
+        BZero->setObjectName(QStringLiteral("BZero"));
+        BZero->setGeometry(QRect(40, 250, 71, 31));
+        BDot = new QPushButton(centralWidget);
+        BDot->setObjectName(QStringLiteral("BDot"));
+        BDot->setGeometry(QRect(120, 250, 31, 31));
+        LState = new QLabel(centralWidget);
+        LState->setObjectName(QStringLiteral("LState"));
+        LState->setGeometry(QRect(10, 40, 31, 31));
+        LState->setScaledContents(false);
+        LState->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        LState->setWordWrap(false);
+        BSaveMemory = new QPushButton(centralWidget);
+        BSaveMemory->setObjectName(QStringLiteral("BSaveMemory"));
+        BSaveMemory->setGeometry(QRect(220, 90, 31, 31));
+        BUseMemory = new QPushButton(centralWidget);
+        BUseMemory->setObjectName(QStringLiteral("BUseMemory"));
+        BUseMemory->setGeometry(QRect(220, 170, 31, 31));
+        BDeleteMemory = new QPushButton(centralWidget);
+        BDeleteMemory->setObjectName(QStringLiteral("BDeleteMemory"));
+        BDeleteMemory->setGeometry(QRect(220, 210, 31, 31));
+        BSubstractMemory = new QPushButton(centralWidget);
+        BSubstractMemory->setObjectName(QStringLiteral("BSubstractMemory"));
+        BSubstractMemory->setGeometry(QRect(220, 130, 31, 31));
+        LMemoryState = new QLabel(centralWidget);
+        LMemoryState->setObjectName(QStringLiteral("LMemoryState"));
+        LMemoryState->setGeometry(QRect(10, 10, 31, 31));
+        LMemoryState->setScaledContents(false);
+        LMemoryState->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        LMemoryState->setWordWrap(false);
         MWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 223, 21));
+        menuBar->setGeometry(QRect(0, 0, 288, 21));
         MWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -129,6 +176,13 @@ public:
         QObject::connect(BMultiply, SIGNAL(clicked()), MWindow, SLOT(BMultiplyPressed()));
         QObject::connect(BNumeric5, SIGNAL(clicked()), MWindow, SLOT(BFivePressed()));
         QObject::connect(BNumeric4, SIGNAL(clicked()), MWindow, SLOT(BFourPressed()));
+        QObject::connect(BReset, SIGNAL(clicked()), MWindow, SLOT(BResetPressed()));
+        QObject::connect(BZero, SIGNAL(clicked()), MWindow, SLOT(BZeroPressed()));
+        QObject::connect(BDot, SIGNAL(clicked()), MWindow, SLOT(BDotPressed()));
+        QObject::connect(BSaveMemory, SIGNAL(clicked()), MWindow, SLOT(BSaveMemoryPressed()));
+        QObject::connect(BUseMemory, SIGNAL(clicked()), MWindow, SLOT(BUseMemoryPressed()));
+        QObject::connect(BDeleteMemory, SIGNAL(clicked()), MWindow, SLOT(BDeleteMemoryPressed()));
+        QObject::connect(BSubstractMemory, SIGNAL(clicked()), MWindow, SLOT(BSubstractMemoryPressed()));
 
         QMetaObject::connectSlotsByName(MWindow);
     } // setupUi
@@ -151,6 +205,15 @@ public:
         BMultiply->setText(QApplication::translate("MWindow", "*", Q_NULLPTR));
         BDivide->setText(QApplication::translate("MWindow", "/", Q_NULLPTR));
         lcd->setText(QApplication::translate("MWindow", "0", Q_NULLPTR));
+        BReset->setText(QApplication::translate("MWindow", "CE", Q_NULLPTR));
+        BZero->setText(QApplication::translate("MWindow", "0", Q_NULLPTR));
+        BDot->setText(QApplication::translate("MWindow", ".", Q_NULLPTR));
+        LState->setText(QString());
+        BSaveMemory->setText(QApplication::translate("MWindow", "M+", Q_NULLPTR));
+        BUseMemory->setText(QApplication::translate("MWindow", "MR", Q_NULLPTR));
+        BDeleteMemory->setText(QApplication::translate("MWindow", "MC", Q_NULLPTR));
+        BSubstractMemory->setText(QApplication::translate("MWindow", "M-", Q_NULLPTR));
+        LMemoryState->setText(QString());
     } // retranslateUi
 
 };

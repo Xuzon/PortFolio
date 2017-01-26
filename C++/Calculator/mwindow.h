@@ -4,11 +4,10 @@
 #include <QMainWindow>
 
 namespace Ui {
-class MWindow;
+    class MWindow;
 }
 
-class MWindow : public QMainWindow
-{
+class MWindow : public QMainWindow{
     Q_OBJECT
 
 public:
@@ -19,6 +18,7 @@ public:
 
 private slots:
 
+    #pragma region  Numbers
     void BOnePressed();
 
     void BTwoPressed();
@@ -37,6 +37,12 @@ private slots:
 
     void BNinePressed();
 
+    void BZeroPressed();
+    #pragma endregion
+
+    void BDotPressed();
+
+    #pragma region Operations
     void BAddPressed();
 
     void BSubstractPressed();
@@ -47,14 +53,52 @@ private slots:
 
     void BEqualsPressed();
 
+    void BResetPressed();
+    #pragma endregion
+
+    #pragma region Memory
+    void BSaveMemoryPressed();
+
+    void BSubstractMemoryPressed();
+
+    void BUseMemoryPressed();
+
+    void BDeleteMemoryPressed();
+    #pragma endregion
+
+   
+    #pragma region Aux
+    void ChangeOperation(Operation op);
+
+    float GetNumberOfDecimals(float f);
+
+    void ButtonPressed();
+    #pragma endregion
+
+
+
+
 private:
     Ui::MWindow *ui;
+    //states
     bool firstOperandChoosing;
+    bool dot;
+    int divider = 0;
+    //operands
     float firstOperand;
     float secondOperand;
+    QString sFirstOperand;
+    QString sSecondOperand;
     float result;
+    //Memory
+    float memory;
+    float displayNumber;
+    //aux
+    int decimalThreshold = 4;
+
+    //Aux methods
     void StoreNumber(float number);
-    void ShowLCD(QString value);
+    void ShowLCD(QString* value);
 };
 
 #endif // MWINDOW_H
