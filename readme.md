@@ -4,7 +4,7 @@ This is Daniel Garrido (Xuzon) personal portfolio, I have some personal projects
 - [C](#c)
 - [C-Sharp](#c-sharp)
 - [Java](#java)
-- [C++](#c++)
+- [C++](#cpp)
 - [Shaders](#shaders)
 - [MySQL](#sql)
 
@@ -43,7 +43,7 @@ My most used language in the college, I made a lot of stuff in Java
 * DB (MySql, MongoDB, XML)
 
 
-# C++
+# Cpp
 
 I'm learning this language to do Image processing
 
