@@ -87,7 +87,7 @@ This is similar to my toonish shader but I use a ramp texture (classic toon shad
 ![PlayerRampToonish](http://i.imgur.com/MrYFJjN.png)
 
 * **My Ramp Toonish**
-![WeaponRampToonish](http://i.imgur.com/jLUm77d.png
+![WeaponRampToonish](http://i.imgur.com/jLUm77d.png)
 
 ## Water Toonish Shader
 
