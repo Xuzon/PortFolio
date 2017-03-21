@@ -59,7 +59,7 @@ Unity's shaders, these are advanced versions of what I have in my portfolio righ
 
 ## Toonish Shader
 
-This is a Unity's surface shader with a pass before the real shader to do the outline. I've also written a custom lighting for this model "Toonish Lighting" where I use the specular, but, I get the specular using the Metallic and calling the Unity's function DiffuseAndSpecularByMetallic or something like that.
+This is a Unity's surface shader with a pass before the real shader to do the outline. I've also written a custom lighting for this model "Toonish Lighting" where I use the specular, but, I get the specular using the Metallic and calling the Unity's function DiffuseAndSpecularByMetallic.
 
 ### Examples
 
@@ -75,7 +75,19 @@ This is a Unity's surface shader with a pass before the real shader to do the ou
 * **Standard**
 ![WeaponStandard](http://i.imgur.com/S4qks6i.png)
 * **My Toonish**
-![PWeaponToonish](http://i.imgur.com/cxcNHTD.png)
+![WeaponToonish](http://i.imgur.com/cxcNHTD.png)
+
+## Toonish Ramp Shader
+
+This is similar to my toonish shader but I use a ramp texture (classic toon shading) but I use it with the luminance and the color apart to achieve a different effect.
+
+### Examples
+
+* **My Ramp Toonish**
+![PlayerRampToonish](http://i.imgur.com/MrYFJjN.png)
+
+* **My Ramp Toonish**
+![WeaponRampToonish](http://i.imgur.com/jLUm77d.png
 
 ## Water Toonish Shader
 
