@@ -59,7 +59,7 @@ Unity's shaders, these are advanced versions of what I have in my portfolio righ
 
 ## Toonish Shader
 
-This is a Unity's surface shader with a pass before the real shader to do the outline. I've also written a custom lighting for this model "Toonish Lighting" where I use the specular, but, I get the specular using the Metallic and calling the Unity's function DiffuseAndSpecularByMetallic.
+This is a Unity's surface shader with a pass before the real shader to do the outline. I've also written a custom lighting for this model "Toonish Lighting" where I use, the normal (bump map + vertex) and the specular color, I get the specular using the Metallic, Roughness and calling the Unity's function DiffuseAndSpecularByMetallic.
 
 ### Examples
 
@@ -68,7 +68,7 @@ This is a Unity's surface shader with a pass before the real shader to do the ou
 * **Standard**
 ![PlayerStandard](http://i.imgur.com/jXZ6gEp.png)
 * **My Toonish**
-![PlayerToonish](http://i.imgur.com/w3NVqp3.png)
+![PlayerToonish](http://i.imgur.com/Ss4Z9Y1.png)
 
 * **Comparison** in a weapon model
 ![WeaponToonishStandard](http://i.imgur.com/ILwKCLE.png)
