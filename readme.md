@@ -13,7 +13,7 @@ This is Daniel Garrido (Xuzon) personal portfolio, I have some personal projects
 
 Was my first high level language, before this I've only programmed with assembly.
 
-###Examples
+### Examples
 
 * I customized the **Linux Kernel** with auxiliar functions,
 * I made a **custom CPU scheduler** with the kernel.
@@ -48,7 +48,9 @@ My most used language in the college, I made a lot of stuff in Java
 
 # Cpp
 
-I'm learning this language to do Image processing
+My main approach with this language is an image processing software (Face recognition, brightness, contrast, different image effects).
+
+* [Repository](https://github.com/Xuzon/ImageProcessing)
 
 
 # Shaders
