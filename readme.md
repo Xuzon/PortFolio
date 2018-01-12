@@ -24,10 +24,17 @@ Was my first high level language, before this I've only programmed with assembly
 # C-Sharp
 
 Was my first OOP language, I was self-tought with this language, when I first started with it I'd only known C,
-so it was a challenge to learn OOP by my own, I have 4 projects with this language using Unity3D, if you want to know more talk with me
+so it was a challenge to learn OOP by my own, I have more projects with this language using Unity3D, if you want to know more talk with me
 
 ### Examples
 * My **first** project with this language and Unity3D was a procedural space game, here is a [demo](http://www.indiedb.com/games/space-is-our-land/downloads/space-is-our-land-alpha-demo), I made all what is in the game but the terrain textures.
+
+* My **big** project, 2 years and 9 months and still developing it, a PvP online third person shooter game, the main mechanic of the game is changing your own gravity.Here I post some gifs of the game on summer, now we made a big change to use instead of heroes with predefined skills and weapons, You build a robot with a set of parts we give, we changed the movement also, making it much smoother.
+  * [Gravity ambush](https://gfycat.com/CooperativeAbsoluteCats)
+  * [Sniping](https://gfycat.com/QueasyAnimatedGavial)
+  * [Gravity Chase](https://gfycat.com/WellwornScratchyAsiaticwildass)
+  * [Tanky combat](https://gfycat.com/SpiffySneakyBeardeddragon)
+
 
 # Java
 
@@ -42,13 +49,14 @@ My most used language in the college, I made a lot of stuff in Java
 * [Android game](https://github.com/Xuzon/HexagonWars) with artificial intelligence
 * [Artificial intelligence](https://github.com/Xuzon/psiLab)
 * [Secure server](https://github.com/Xuzon/SegLab) where you can store and retrieve documents 
-* Server[(https://github.com/Xuzon/MultiScreen)] that use FFMPEG to split a video into the columns and rows you want and stream it 
+* [Server](https://github.com/Xuzon/MultiScreen) that use FFMPEG to split a video into the columns and rows you want and stream it 
 * DB (MySql, MongoDB, XML)
 
 
-# Cpp
+# C++
 
 My main approach with this language is an image processing software (Face recognition, brightness, contrast, different image effects).
+I used QT for UI
 
 * [Repository](https://github.com/Xuzon/ImageProcessing)
 
