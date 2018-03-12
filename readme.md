@@ -55,10 +55,12 @@ My most used language in the college, I made a lot of stuff in Java
 
 # C++
 
-My main approach with this language is an image processing software (Face recognition, brightness, contrast, different image effects).
-I used QT for UI
+* [Image processing software](https://github.com/Xuzon/ImageProcessing) (Face recognition, brightness, contrast, different image effects). I used QT for UI
 
-* [Repository](https://github.com/Xuzon/ImageProcessing)
+* [MUSVI](https://github.com/MUSVI-LPRO) a tablet application to translate rythm into partitures, specially designed for school learning
+[Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
+
+
 
 
 # Shaders
