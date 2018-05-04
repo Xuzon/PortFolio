@@ -7,6 +7,7 @@ This is Daniel Garrido (Xuzon) personal portfolio, I have some personal projects
 - [C++](#cpp)
 - [Shaders](#shaders)
 - [MySQL](#sql)
+- [Games](#games)
 
 
 # C
@@ -116,3 +117,8 @@ This is a Unity's surface shader with a custom vertex function to do the waves. 
 
 I've learned MySQL in the college
 
+
+# Games
+
+- [Form of a Legend](https://aezon.itch.io/form-of-a-legend)
+- [Xequon](https://aezon.itch.io/xequon)
