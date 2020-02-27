@@ -1,6 +1,6 @@
 # Portfolio
 
-This is Daniel Garrido (Xuzon) personal portfolio, I have some personal projects also that I can't make public yet
+This is Daniel Garrido (Xuzon) personal portfolio, The games I worked on **are not** open source
 - [Games](#games)
 - [C](#c)
 - [C-Sharp](#c-sharp)
