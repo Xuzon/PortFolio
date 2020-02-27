@@ -1,13 +1,22 @@
 # Portfolio
 
 This is Daniel Garrido (Xuzon) personal portfolio, I have some personal projects also that I can't make public yet
+- [Games](#games)
 - [C](#c)
 - [C-Sharp](#c-sharp)
 - [Java](#java)
 - [C++](#cpp)
 - [Shaders](#shaders)
 - [MySQL](#sql)
-- [Games](#games)
+
+# Games
+- [Xequon](https://aezon.itch.io/xequon)
+  ![XequonImage](https://img.itch.zone/aW1hZ2UvMjUyNTMzLzE2MDE2NDYucG5n/original/Fw5Ogs.png)
+- [Form of a Legend](https://aezon.itch.io/form-of-a-legend)
+  ![FOALImage](https://img.itch.zone/aW1hZ2UvMjQ4NzA1LzI0MDI5NDMucG5n/original/1cHqC6.png)
+- [Space is our Land](https://www.indiedb.com/games/space-is-our-land)
+  ![SIOLImage](https://media.indiedb.com/images/games/1/36/35888/BoxShot.jpg)
+
 
 
 # C
@@ -28,14 +37,7 @@ Was my first OOP language, I was self-tought with this language, when I first st
 so it was a challenge to learn OOP by my own, I have more projects with this language using Unity3D, if you want to know more talk with me
 
 ### Examples
-* My **first** project with this language and Unity3D was a procedural space game, here is a [demo](http://www.indiedb.com/games/space-is-our-land/downloads/space-is-our-land-alpha-demo), I made all what is in the game but the terrain textures.
-
-* My **big** project, 2 years and 9 months and still developing it, a PvP online third person shooter game, the main mechanic of the game is changing your own gravity.Here I post some gifs of the game on summer, now we made a big change to use instead of heroes with predefined skills and weapons, You build a robot with a set of parts we give, we changed the movement also, making it much smoother.
-  * [Gravity ambush](https://gfycat.com/CooperativeAbsoluteCats)
-  * [Sniping](https://gfycat.com/QueasyAnimatedGavial)
-  * [Gravity Chase](https://gfycat.com/WellwornScratchyAsiaticwildass)
-  * [Tanky combat](https://gfycat.com/SpiffySneakyBeardeddragon)
-
+ - [Games](#games)
 
 # Java
 
@@ -60,6 +62,8 @@ My most used language in the college, I made a lot of stuff in Java
 
 * [MUSVI](https://github.com/MUSVI-LPRO) a tablet application to translate rythm into partitures, specially designed for school learning
 [Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
+
+* [UCM Master's Degree on Game Development](http://videojuegos-ucm.es/)
 
 
 
@@ -116,9 +120,3 @@ This is a Unity's surface shader with a custom vertex function to do the waves. 
 # SQL
 
 I've learned MySQL in the college
-
-
-# Games
-
-- [Form of a Legend](https://aezon.itch.io/form-of-a-legend)
-- [Xequon](https://aezon.itch.io/xequon)
