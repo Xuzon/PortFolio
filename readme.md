@@ -10,11 +10,11 @@ This is Daniel Garrido (Xuzon) personal portfolio, The games I worked on **are n
 - [MySQL](#sql)
 
 # Games
-- [Xequon](https://aezon.itch.io/xequon)
+## [Xequon](https://aezon.itch.io/xequon)
   ![XequonImage](https://img.itch.zone/aW1hZ2UvMjUyNTMzLzE2MDE2NDYucG5n/original/Fw5Ogs.png)
-- [Form of a Legend](https://aezon.itch.io/form-of-a-legend)
+## [Form of a Legend](https://aezon.itch.io/form-of-a-legend)
   ![FOALImage](https://img.itch.zone/aW1hZ2UvMjQ4NzA1LzI0MDI5NDMucG5n/original/1cHqC6.png)
-- [Space is our Land](https://www.indiedb.com/games/space-is-our-land)
+## [Space is our Land](https://www.indiedb.com/games/space-is-our-land)
   ![SIOLImage](https://media.indiedb.com/images/games/1/36/35888/BoxShot.jpg)
 
 # C#
