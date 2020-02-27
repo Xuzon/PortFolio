@@ -1,0 +1,1348 @@
+﻿Log file open, 12/04/19 18:23:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CppCourse
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.332268
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz, GPU: Intel(R) Iris(R) Plus Graphics
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=DenyBitG -epicuserid=0cc7274eedc74723b4e17c7fc4fdddd7 -epiclocale=es-ES
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.04-17.23.56:326][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.04-17.23.56:327][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:327][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:333][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.04-17.23.56:333][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:333][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.04-17.23.56:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.04-17.23.56:335][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.04-17.23.56:335][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.04-17.23.56:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.04-17.23.56:361][  0]LogHAL: Display: Platform has ~ 32 GB [34118209536 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.04-17.23.56:361][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.04-17.23.56:362][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.04-17.23.56:362][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.04-17.23.56:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.04-17.23.56:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.04-17.23.56:364][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.04-17.23.56:365][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.04-17.23.56:365][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.04-17.23.56:365][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.04-17.23.56:365][  0]LogInit: Computer: DESKTOP-U3MBQR6
+[2019.12.04-17.23.56:365][  0]LogInit: User: danie
+[2019.12.04-17.23.56:365][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.04-17.23.56:365][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.04-17.23.56:365][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.12.04-17.23.56:365][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.04-17.23.56:365][  0]LogMemory: Process Physical Memory: 100.24 MB used, 100.24 MB peak
+[2019.12.04-17.23.56:365][  0]LogMemory: Process Virtual Memory: 88.86 MB used, 88.86 MB peak
+[2019.12.04-17.23.56:365][  0]LogMemory: Physical Memory: 10422.71 MB used,  22114.95 MB free, 32537.66 MB total
+[2019.12.04-17.23.56:365][  0]LogMemory: Virtual Memory: 4642.76 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.04-17.23.56:399][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.04-17.23.56:400][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.12.04-17.23.56:400][  0]LogInit: Using OS detected locale (es-ES).
+[2019.12.04-17.23.56:690][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.04-17.23.56:757][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.04-17.23.56:757][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.04-17.23.57:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.04-17.23.57:185][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.04-17.23.57:270][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Plus Graphics' (Feature Level 11_0)
+[2019.12.04-17.23.57:270][  0]LogD3D11RHI:       128/0/16268 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.12.04-17.23.57:274][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.04-17.23.57:274][  0]LogD3D11RHI:       0/0/16268 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.04-17.23.57:274][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.04-17.23.57:282][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.04-17.23.57:282][  0]LogD3D11RHI:     GPU DeviceId: 0x8a52 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.04-17.23.57:282][  0]LogWindows: EnumDisplayDevices:
+[2019.12.04-17.23.57:283][  0]LogWindows:    0. 'Intel(R) Iris(R) Plus Graphics' (P:1 D:1)
+[2019.12.04-17.23.57:283][  0]LogWindows:    1. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:284][  0]LogWindows:    2. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:284][  0]LogWindows:    3. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:284][  0]LogWindows:    4. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:285][  0]LogWindows:    5. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:285][  0]LogWindows:    6. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:285][  0]LogWindows:    7. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.04-17.23.57:286][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2019.12.04-17.23.57:286][  0]LogD3D11RHI:     Adapter Name: Intel(R) Iris(R) Plus Graphics
+[2019.12.04-17.23.57:286][  0]LogD3D11RHI:   Driver Version: 26.20.100.7463 (internal:26.20.100.7463, unified:26.20.100.7463)
+[2019.12.04-17.23.57:286][  0]LogD3D11RHI:      Driver Date: 11-6-2019
+[2019.12.04-17.23.57:286][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2019.12.04-17.23.57:360][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.04-17.23.57:365][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.04-17.23.57:366][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.04-17.23.57:366][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.04-17.23.57:369][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2019.12.04-17.23.57:870][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.04-17.23.57:891][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.04-17.23.57:911][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.04-17.23.57:935][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.04-17.23.57:957][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.04-17.23.57:977][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.04-17.23.57:997][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.04-17.23.58:016][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.04-17.23.58:026][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.04-17.23.58:187][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.04-17.23.58:190][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.04-17.23.58:279][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.04-17.23.58:279][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.04-17.23.58:337][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.04-17.23.58:337][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.04-17.23.58:367][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.04-17.23.58:397][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.04-17.23.58:426][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.04-17.23.58:458][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.04-17.23.58:559][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.04-17.23.58:560][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.04-17.23.58:560][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.04-17.23.58:578][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.04-17.23.58:680][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Intermediate/Shaders/WorkingDirectory/19628/).
+[2019.12.04-17.23.58:680][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/9BCB71F0430C916590714FB4B801E2D3/'.
+[2019.12.04-17.23.58:685][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.04-17.23.58:685][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.04-17.23.58:685][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.04-17.23.59:857][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.04-17.23.59:928][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.04-17.23.59:949][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.04-17.23.59:950][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.04-17.23.59:950][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.04-17.23.59:962][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.04-17.23.59:962][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.04-17.23.59:962][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.04-17.24.00:007][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.04-17.24.00:009][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.04-17.24.00:011][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.04-17.24.00:169][  0]LogAssetRegistry: FAssetRegistry took 0.0469 seconds to start up
+[2019.12.04-17.24.00:810][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.04-17.24.01:049][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.04-17.24.01:049][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.04-17.24.01:049][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.04-17.24.01:049][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.04-17.24.01:049][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.04-17.24.01:066][  0]LogNetVersion: CppCourse 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 78934064)
+[2019.12.04-17.24.01:736][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.070092 seconds
+[2019.12.04-17.24.01:747][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.04-17.24.01:747][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.04-17.24.01:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.04-17.24.03:481][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.04-17.24.03:533][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.04-17.24.03:734][  0]SourceControl: Source control is disabled
+[2019.12.04-17.24.03:734][  0]SourceControl: Source control is disabled
+[2019.12.04-17.24.03:738][  0]SourceControl: Source control is disabled
+[2019.12.04-17.24.03:740][  0]SourceControl: Source control is disabled
+[2019.12.04-17.24.03:883][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.04-17.24.04:046][  0]LogOcInput: OculusInput pre-init called
+[2019.12.04-17.24.05:411][  0]LogEngine: Initializing Engine...
+[2019.12.04-17.24.05:412][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.04-17.24.05:414][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.04-17.24.05:738][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.04-17.24.05:758][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.04-17.24.05:782][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.04-17.24.05:959][  0]LogAudio: Error: CreateMasteringVoice error: Unhandled error code -2004287473
+[2019.12.04-17.24.05:959][  0]LogInit: Warning: Failed to create the mastering voice for XAudio2
+[2019.12.04-17.24.05:959][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.04-17.24.06:029][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.04-17.24.06:043][  0]LogInit: Texture streaming: Enabled
+[2019.12.04-17.24.06:072][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.04-17.24.06:109][  0]LogInit: Transaction tracking system initialized
+[2019.12.04-17.24.06:151][  0]BlueprintLog: New page: Editor Load
+[2019.12.04-17.24.06:362][  0]LocalizationService: Localization service is disabled
+[2019.12.04-17.24.06:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/' took 0.01s
+[2019.12.04-17.24.06:968][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.04-17.24.06:968][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.04-17.24.07:299][  0]SourceControl: Source control is disabled
+[2019.12.04-17.24.07:313][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.22/FeaturePacks/StarterContent.upack)
+[2019.12.04-17.24.07:329][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.12.04-17.24.07:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.12.04-17.24.07:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.12.04-17.24.07:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.12.04-17.24.07:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.12.04-17.24.07:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.12.04-17.24.07:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.12.04-17.24.07:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.12.04-17.24.07:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.12.04-17.24.07:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.12.04-17.24.07:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.12.04-17.24.07:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.12.04-17.24.07:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.12.04-17.24.07:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.12.04-17.24.07:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.12.04-17.24.07:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.12.04-17.24.07:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.12.04-17.24.07:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.12.04-17.24.07:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Fire01.uasset"
+[2019.12.04-17.24.07:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.12.04-17.24.07:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.12.04-17.24.07:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.12.04-17.24.07:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Light01.uasset"
+[2019.12.04-17.24.07:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.12.04-17.24.07:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Light02.uasset"
+[2019.12.04-17.24.07:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.12.04-17.24.07:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.12.04-17.24.07:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.12.04-17.24.07:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.12.04-17.24.07:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.12.04-17.24.07:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.12.04-17.24.07:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.12.04-17.24.07:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.12.04-17.24.07:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.12.04-17.24.07:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Steam01.uasset"
+[2019.12.04-17.24.07:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.12.04-17.24.07:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.12.04-17.24.07:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.12.04-17.24.07:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.12.04-17.24.07:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.12.04-17.24.07:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.12.04-17.24.07:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.12.04-17.24.08:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.12.04-17.24.08:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.12.04-17.24.08:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.12.04-17.24.08:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.12.04-17.24.08:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.12.04-17.24.08:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.12.04-17.24.08:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.12.04-17.24.08:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.12.04-17.24.08:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.12.04-17.24.08:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.12.04-17.24.08:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.12.04-17.24.08:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.12.04-17.24.08:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.12.04-17.24.08:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.12.04-17.24.08:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.12.04-17.24.08:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/StarterMap.umap"
+[2019.12.04-17.24.08:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.12.04-17.24.08:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.12.04-17.24.08:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.12.04-17.24.08:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.12.04-17.24.08:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.12.04-17.24.08:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.12.04-17.24.08:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.12.04-17.24.08:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.12.04-17.24.08:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.12.04-17.24.08:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.12.04-17.24.08:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.12.04-17.24.08:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.12.04-17.24.08:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.12.04-17.24.08:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.12.04-17.24.08:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.12.04-17.24.08:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.12.04-17.24.08:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.12.04-17.24.08:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.12.04-17.24.08:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.12.04-17.24.08:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.12.04-17.24.08:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.12.04-17.24.08:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.12.04-17.24.08:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.12.04-17.24.08:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.12.04-17.24.08:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.12.04-17.24.08:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.12.04-17.24.08:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.12.04-17.24.08:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.12.04-17.24.08:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.12.04-17.24.08:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.12.04-17.24.08:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.12.04-17.24.08:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.12.04-17.24.08:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.12.04-17.24.08:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.12.04-17.24.08:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.12.04-17.24.08:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.12.04-17.24.09:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.12.04-17.24.09:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.12.04-17.24.09:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.12.04-17.24.09:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.12.04-17.24.09:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.12.04-17.24.09:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.12.04-17.24.09:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.12.04-17.24.09:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.12.04-17.24.09:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.12.04-17.24.09:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.12.04-17.24.09:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.12.04-17.24.09:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.12.04-17.24.09:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.12.04-17.24.09:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.12.04-17.24.09:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.12.04-17.24.09:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.12.04-17.24.09:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.12.04-17.24.09:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.12.04-17.24.09:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.12.04-17.24.09:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.12.04-17.24.09:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.12.04-17.24.09:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.12.04-17.24.09:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.12.04-17.24.09:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.12.04-17.24.09:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.12.04-17.24.09:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.12.04-17.24.09:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.12.04-17.24.09:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.12.04-17.24.09:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.12.04-17.24.09:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Door.uasset"
+[2019.12.04-17.24.09:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.12.04-17.24.09:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.12.04-17.24.09:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.12.04-17.24.09:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.12.04-17.24.09:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.12.04-17.24.09:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.12.04-17.24.09:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.12.04-17.24.09:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.12.04-17.24.09:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.12.04-17.24.09:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.12.04-17.24.09:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.12.04-17.24.09:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.12.04-17.24.09:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.12.04-17.24.09:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.12.04-17.24.09:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.12.04-17.24.09:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.12.04-17.24.09:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.12.04-17.24.09:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.12.04-17.24.09:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.12.04-17.24.09:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.12.04-17.24.09:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.12.04-17.24.09:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.12.04-17.24.09:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.12.04-17.24.09:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.12.04-17.24.09:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.12.04-17.24.09:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.12.04-17.24.09:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.12.04-17.24.10:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.12.04-17.24.10:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.12.04-17.24.10:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.12.04-17.24.10:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.12.04-17.24.10:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.12.04-17.24.10:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.12.04-17.24.10:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.12.04-17.24.10:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.12.04-17.24.10:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.12.04-17.24.10:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.12.04-17.24.10:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.12.04-17.24.10:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.12.04-17.24.10:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.12.04-17.24.10:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.12.04-17.24.10:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.12.04-17.24.10:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.12.04-17.24.10:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.12.04-17.24.10:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.12.04-17.24.10:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.12.04-17.24.10:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.12.04-17.24.10:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.12.04-17.24.10:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.12.04-17.24.10:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.12.04-17.24.10:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.12.04-17.24.10:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.12.04-17.24.10:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.12.04-17.24.10:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.12.04-17.24.10:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.12.04-17.24.10:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.12.04-17.24.10:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.12.04-17.24.10:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.12.04-17.24.10:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.12.04-17.24.10:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.12.04-17.24.10:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.12.04-17.24.10:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.12.04-17.24.10:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.12.04-17.24.10:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.12.04-17.24.10:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.12.04-17.24.10:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.12.04-17.24.10:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.12.04-17.24.10:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.12.04-17.24.10:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.12.04-17.24.10:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.12.04-17.24.10:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.12.04-17.24.11:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.12.04-17.24.11:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.12.04-17.24.11:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.12.04-17.24.11:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.12.04-17.24.11:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.12.04-17.24.11:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.12.04-17.24.11:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.12.04-17.24.11:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.12.04-17.24.11:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.12.04-17.24.11:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.12.04-17.24.11:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.12.04-17.24.11:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.12.04-17.24.11:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.12.04-17.24.11:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.12.04-17.24.11:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.12.04-17.24.11:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.12.04-17.24.11:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.12.04-17.24.11:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.12.04-17.24.11:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.12.04-17.24.11:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.12.04-17.24.11:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.12.04-17.24.11:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.12.04-17.24.11:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.12.04-17.24.11:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.12.04-17.24.11:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.12.04-17.24.11:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.12.04-17.24.11:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.12.04-17.24.11:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.12.04-17.24.11:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.12.04-17.24.11:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.12.04-17.24.11:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.12.04-17.24.11:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.12.04-17.24.11:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.12.04-17.24.11:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.12.04-17.24.11:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.12.04-17.24.11:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.12.04-17.24.11:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.12.04-17.24.11:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.12.04-17.24.11:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.12.04-17.24.12:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.12.04-17.24.12:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.12.04-17.24.12:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.12.04-17.24.12:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.12.04-17.24.12:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.12.04-17.24.12:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.12.04-17.24.12:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.12.04-17.24.12:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.12.04-17.24.12:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.12.04-17.24.12:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.12.04-17.24.12:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.12.04-17.24.12:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.12.04-17.24.12:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.12.04-17.24.12:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.12.04-17.24.12:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.12.04-17.24.12:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.12.04-17.24.12:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.12.04-17.24.12:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.12.04-17.24.12:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.12.04-17.24.12:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.12.04-17.24.12:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.12.04-17.24.12:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.12.04-17.24.12:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.12.04-17.24.12:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.12.04-17.24.12:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.12.04-17.24.12:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.12.04-17.24.12:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.12.04-17.24.12:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.12.04-17.24.12:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.12.04-17.24.12:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.12.04-17.24.12:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.12.04-17.24.12:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.12.04-17.24.12:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.12.04-17.24.12:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.12.04-17.24.12:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.12.04-17.24.12:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.12.04-17.24.12:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.12.04-17.24.12:852][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.12.04-17.24.12:859][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.12.04-17.24.12:966][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.12.04-17.24.13:315][  0]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Floor_400x400272C782942EB8FD016B40E9F7297B1DA.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2019.12.04-17.24.13:327][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.12.04-17.24.13:337][  0]Cmd: MAP LOAD FILE="../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.04-17.24.13:338][  0]LightingResults: New page: Lighting Build
+[2019.12.04-17.24.13:343][  0]MapCheck: New page: Map Check
+[2019.12.04-17.24.13:343][  0]LightingResults: New page: Lighting Build
+[2019.12.04-17.24.13:382][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.12.04-17.24.13:820][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.04-17.24.13:829][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.04-17.24.13:937][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.12.04-17.24.13:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.04-17.24.13:937][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,228ms to complete.
+[2019.12.04-17.24.13:937][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.600
+[2019.12.04-17.24.14:147][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.24.14:165][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.24.14:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.24.14:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.24.14:214][  0]LogCollectionManager: Loaded 0 collections in 0.002790 seconds
+[2019.12.04-17.24.14:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Collections/' took 0.01s
+[2019.12.04-17.24.14:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Developers/danie/Collections/' took 0.01s
+[2019.12.04-17.24.14:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Collections/' took 0.01s
+[2019.12.04-17.24.14:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.04-17.24.14:288][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2733 classes and 661 folders.
+[2019.12.04-17.24.14:305][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.04-17.24.14:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:368][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:420][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:430][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:439][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:449][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.04-17.24.14:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.04-17.24.14:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.12.04-17.24.14:990][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.04-17.24.14:993][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.04-17.24.15:017][  0]LogSlate: Took 0.014896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.04-17.24.15:163][  0]LogRenderer: Reallocating scene render targets to support 1072x568 Format 10 NumSamples 1 (Frame:1).
+[2019.12.04-17.24.15:543][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.12.04-17.24.15:543][  0]LogLoad: (Engine Initialization) Total time: 22.34 seconds
+[2019.12.04-17.24.15:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.04-17.24.16:095][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.04-17.24.17:867][ 39]LogAssetRegistry: Asset discovery search completed in 17.7203 seconds
+[2019.12.04-17.24.17:877][ 39]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.04-17.24.17:877][ 39]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000174 seconds (updated 0 objects)
+[2019.12.04-17.24.22:864][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.24.26:301][320]LogSlate: Took 0.001293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.04-17.49.28:974][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.49.31:070][443]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.04-17.49.31:072][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.49.31:118][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.49.31:135][443]LogSlate: Took 0.010690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.04-17.50.08:613][533]Candidate modules for hot reload:
+[2019.12.04-17.50.08:613][533]  CppCourse
+[2019.12.04-17.50.08:613][533]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppCourse,8907 Win64 Development -TargetType=Editor -Project="C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject" "C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject"  -IgnoreJunk]
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: New page: Compilation - 4/12/2019 19:50:22
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: Creating makefile for CppCourseEditor (.uproject file is newer)
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: Parsing headers for CppCourseEditor
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\CppCourse.uproject" "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\CppCourseEditor\Development\CppCourseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: Reflection code generated for CppCourseEditor in 8,3857778 seconds
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.04-17.50.22:803][533]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [1/9] CppCourse.cpp
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [2/9] CppCourseGameModeBase.cpp
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [3/9] MyActorComponent.cpp
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [4/9] CppCourse.init.gen.cpp
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [5/9] MyActorComponent.gen.cpp
+[2019.12.04-17.50.22:803][533]CompilerResultsLog:   [6/9] CppCourseGameModeBase.gen.cpp
+[2019.12.04-17.50.22:804][533]CompilerResultsLog:   [7/9] UE4Editor-CppCourse-8907.lib
+[2019.12.04-17.50.22:804][533]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-8907.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-8907.exp
+[2019.12.04-17.50.22:804][533]CompilerResultsLog:   [8/9] UE4Editor-CppCourse-8907.dll
+[2019.12.04-17.50.22:804][533]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-8907.suppressed.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-8907.suppressed.exp
+[2019.12.04-17.50.22:804][533]CompilerResultsLog:   [9/9] CppCourseEditor.target
+[2019.12.04-17.50.22:804][533]CompilerResultsLog: Total time in Parallel executor: 2,66 seconds
+[2019.12.04-17.50.22:804][533]CompilerResultsLog: Total execution time: 14,08 seconds
+[2019.12.04-17.50.22:804][533]LogMainFrame: MainFrame: Module compiling took 14.193 seconds
+[2019.12.04-17.50.22:835][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.12.04-17.50.22:858][533]LogClass: Could not find existing class MyActorComponent in package /Script/CppCourse for HotReload, assuming new class
+[2019.12.04-17.50.22:861][533]LogContentBrowser: Native class hierarchy updated for 'CppCourse' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2019.12.04-17.50.22:863][533]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.04-17.50.22:987][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.12.04-17.50.23:001][533]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2735 classes and 663 folders.
+[2019.12.04-17.50.23:001][533]Display: HotReload took 14.4s.
+[2019.12.04-17.50.23:003][533]Warning: HotReload operation took 14.4s.
+[2019.12.04-17.50.23:897][533]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Source/CppCourse/MyActorComponent.h'
+[2019.12.04-17.50.23:903][533]LogVSAccessor: Warning: Couldn't open file 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Source/CppCourse/MyActorComponent.cpp'.
+[2019.12.04-17.50.23:913][533]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.04-17.50.23:919][533]LogHotReload: New module detected: UE4Editor-CppCourse-8907.dll
+[2019.12.04-17.50.23:927][533]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.50.23:948][534]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.04-17.50.24:004][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.12.04-17.50.24:008][534]LogContentBrowser: Native class hierarchy updated for 'CppCourse' in 0.0011 seconds. Added 2 classes and 2 folders.
+[2019.12.04-17.50.24:014][534]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.04-17.50.24:048][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.12.04-17.50.24:067][534]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2735 classes and 663 folders.
+[2019.12.04-17.50.24:069][534]Display: HotReload took  0.1s.
+[2019.12.04-17.50.49:302][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-17.50.49:496][241]LogAssetEditorManager: Opening Asset editor for Class /Script/CppCourse.MyActorComponent
+[2019.12.04-17.50.49:786][241]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Source/CppCourse/MyActorComponent.cpp'
+[2019.12.04-17.51.15:593][347]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.519 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.04-17.56.51:725][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.56.52:713][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.56.53:776][548]LogSlate: Window 'New Level' being destroyed
+[2019.12.04-17.56.53:785][548]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.04-17.56.53:788][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.56.53:794][548]LightingResults: New page: Lighting Build
+[2019.12.04-17.56.53:795][548]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.12.04-17.56.53:798][548]MapCheck: New page: Map Check
+[2019.12.04-17.56.53:798][548]LightingResults: New page: Lighting Build
+[2019.12.04-17.56.53:825][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.12.04-17.56.53:842][548]LogAIModule: Creating AISystem for world Untitled_1
+[2019.12.04-17.56.53:853][548]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.04-17.56.53:880][548]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.12.04-17.56.53:886][548]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.04-17.56.53:886][548]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,201ms to complete.
+[2019.12.04-17.56.53:886][548]LogFileHelpers: Loading map 'Template_Default' took 0.103
+[2019.12.04-17.56.56:250][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-17.56.56:342][616]Candidate modules for hot reload:
+[2019.12.04-17.56.56:343][616]  CppCourse
+[2019.12.04-17.56.56:343][616]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppCourse,4426 Win64 Development -TargetType=Editor -Project="C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject" "C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject"  -IgnoreJunk]
+[2019.12.04-17.56.56:353][616]Warning: Starting HotReload took  0.0s.
+[2019.12.04-17.57.30:718][571]CompilerResultsLog: New page: Compilation - 4/12/2019 19:57:30
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Parsing headers for CppCourseEditor
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\CppCourse.uproject" "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\CppCourseEditor\Development\CppCourseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Reflection code generated for CppCourseEditor in 27,7088052 seconds
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:   [1/4] MyActorComponent.cpp
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:   [2/4] UE4Editor-CppCourse-4426.lib
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-4426.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-4426.exp
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:   [3/4] UE4Editor-CppCourse-4426.dll
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-4426.suppressed.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-4426.suppressed.exp
+[2019.12.04-17.57.30:719][571]CompilerResultsLog:   [4/4] CppCourseEditor.target
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Total time in Parallel executor: 2,09 seconds
+[2019.12.04-17.57.30:719][571]CompilerResultsLog: Total execution time: 33,84 seconds
+[2019.12.04-17.57.30:719][571]LogMainFrame: MainFrame: Module compiling took 34.382 seconds
+[2019.12.04-17.57.30:750][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.12.04-17.57.30:779][571]LogContentBrowser: Native class hierarchy updated for 'CppCourse' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2019.12.04-17.57.30:784][571]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.04-17.57.30:848][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.12.04-17.57.30:866][571]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2735 classes and 663 folders.
+[2019.12.04-17.57.30:866][571]Display: HotReload took 34.5s.
+[2019.12.04-17.57.44:059][854]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-17.57.51:396][222]LogSlate: Took 0.016096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.04-17.57.57:492][402]Cmd: TRANSACTION UNDO
+[2019.12.04-17.57.57:492][402]LogEditorTransaction: Undo Add Component
+[2019.12.04-17.58.15:056][ 18]LogSlate: Window 'Save Level As' being destroyed
+[2019.12.04-17.58.23:786][285]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.04-17.58.23:821][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.23:823][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.04-17.58.23:823][285]PIE: New page: PIE session: Untitled_1 (4/12/2019 19:58:23)
+[2019.12.04-17.58.23:838][285]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.12.04-17.58.23:844][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005537s)
+[2019.12.04-17.58.23:845][285]LogAIModule: Creating AISystem for world Untitled_1
+[2019.12.04-17.58.23:845][285]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2019.12.04-17.58.23:845][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007452s)
+[2019.12.04-17.58.23:906][285]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.12.04-17.58.23:954][285]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/CppCourse.CppCourseGameMode'
+[2019.12.04-17.58.23:954][285]LogLoad: Game class is 'GameModeBase'
+[2019.12.04-17.58.23:957][285]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.12.04-18.58.23
+[2019.12.04-17.58.23:958][285]LogWorld: Bringing up level for play took: 0.001149
+[2019.12.04-17.58.24:050][285]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2019.12.04-17.58.24:052][285]LogTemp: Warning: Hello World!
+[2019.12.04-17.58.24:053][285]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0,087
+[2019.12.04-17.58.24:053][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.26:819][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.26:820][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.58.26:873][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.04-17.58.26:874][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.26:937][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.58.26:942][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.12.04-17.58.26:963][371]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.04-17.58.28:637][419]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.04-17.58.34:023][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-17.58.41:855][805]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.04-17.58.41:880][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.41:880][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.04-17.58.41:880][805]PIE: New page: PIE session: Untitled_1 (4/12/2019 19:58:41)
+[2019.12.04-17.58.41:880][805]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.12.04-17.58.41:888][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008086s)
+[2019.12.04-17.58.41:889][805]LogAIModule: Creating AISystem for world Untitled_1
+[2019.12.04-17.58.41:890][805]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2019.12.04-17.58.41:890][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.009757s)
+[2019.12.04-17.58.41:950][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.12.04-17.58.41:985][805]LogLoad: Game class is 'GameModeBase'
+[2019.12.04-17.58.41:986][805]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.12.04-18.58.41
+[2019.12.04-17.58.41:986][805]LogWorld: Bringing up level for play took: 0.000878
+[2019.12.04-17.58.42:000][805]LogTemp: Warning: Hello World!
+[2019.12.04-17.58.42:001][805]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0,139
+[2019.12.04-17.58.42:001][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.44:011][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.44:011][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.58.44:065][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.04-17.58.44:066][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.12.04-17.58.44:116][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-17.58.44:120][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.12.04-17.58.44:141][875]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.04-17.59.04:999][739]LogSlate: Took 0.015786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.04-18.05.07:662][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.12.04-18.05.09:233][600]LogSlate: Window 'Save Content' being destroyed
+[2019.12.04-18.05.09:295][600]LogSlate: Window 'CppCourse - Unreal Editor' being destroyed
+[2019.12.04-18.05.09:552][601]Cmd: QUIT_EDITOR
+[2019.12.04-18.05.09:662][601]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.04-18.05.09:679][601]LogExit: Preparing to exit.
+[2019.12.04-18.05.10:801][601]LogExit: Editor shut down
+[2019.12.04-18.05.10:802][601]LogExit: Transaction tracking system shut down
+[2019.12.04-18.05.11:043][601]LogExit: Object subsystem successfully closed.
+[2019.12.04-18.05.11:065][601]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.12.04-18.05.11:069][601]LogD3D11RHI: Shutdown
+[2019.12.04-18.05.11:069][601]LogD3D11RHI: CleanupD3DDevice
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.04-18.05.11:070][601]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.04-18.05.11:153][601]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (657)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module Voice (655)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module CppCourse (653)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (652)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module NewLevelDialog (650)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2019.12.04-18.05.11:172][601]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module MeshBuilder (632)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.12.04-18.05.11:173][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.12.04-18.05.11:174][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.12.04-18.05.12:172][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.12.04-18.05.12:216][601]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.12.04-18.05.12:217][601]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.12.04-18.05.12:218][601]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.12.04-18.05.12:221][601]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.12.04-18.05.12:433][601]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.12.04-18.05.12:434][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.12.04-18.05.12:535][601]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.12.04-18.05.12:636][601]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.12.04-18.05.12:636][601]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.12.04-18.05.12:637][601]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.12.04-18.05.12:638][601]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.12.04-18.05.12:638][601]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.12.04-18.05.12:638][601]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.12.04-18.05.12:638][601]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.12.04-18.05.12:639][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.12.04-18.05.12:640][601]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.12.04-18.05.12:641][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.12.04-18.05.12:665][601]LogDerivedDataCache: Shutdown
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.12.04-18.05.12:665][601]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.12.04-18.05.12:666][601]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.12.04-18.05.12:666][601]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.12.04-18.05.12:666][601]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.12.04-18.05.12:666][601]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.12.04-18.05.12:666][601]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.12.04-18.05.12:667][601]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.12.04-18.05.12:667][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.12.04-18.05.12:668][601]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.12.04-18.05.12:668][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.12.04-18.05.12:674][601]LogHMD: Freeing OpenVRDLLHandle.
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.12.04-18.05.12:674][601]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.12.04-18.05.12:676][601]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.12.04-18.05.12:676][601]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.12.04-18.05.12:682][601]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.12.04-18.05.12:682][601]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.12.04-18.05.12:682][601]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3F95A390-4291-2A3E-BDB4-B4B8C68D9035%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=36d93c1e4381dd0b23b90982f0aea1e9%7C0cc7274eedc74723b4e17c7fc4fdddd7%7Cf8925f44-256f-4a70-ba53-b23523ff9c21&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.12.04-18.05.12:705][601]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.12.04-18.05.12:706][601]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.12.04-18.05.12:709][601]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.12.04-18.05.12:716][601]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.12.04-18.05.12:716][601]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.12.04-18.05.12:717][601]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.12.04-18.05.12:717][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.12.04-18.05.12:717][601]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.12.04-18.05.12:718][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.12.04-18.05.12:718][601]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.12.04-18.05.12:718][601]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.12.04-18.05.12:718][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.12.04-18.05.12:719][601]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.12.04-18.05.12:728][601]LogExit: Exiting.
+[2019.12.04-18.05.12:744][601]Log file closed, 12/04/19 19:05:12

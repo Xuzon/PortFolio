@@ -1,0 +1,777 @@
+﻿Log file open, 12/10/19 20:38:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CppCourse
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.391345
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz, GPU: Intel(R) Iris(R) Plus Graphics
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.10-19.38.21:996][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.10-19.38.21:996][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.10-19.38.21:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.21:997][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.10-19.38.21:997][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.10-19.38.21:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.21:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.10-19.38.21:998][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.10-19.38.21:999][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.10-19.38.22:000][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.10-19.38.22:001][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.10-19.38.22:001][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.10-19.38.22:001][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.10-19.38.22:001][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.10-19.38.22:001][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.10-19.38.22:002][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.10-19.38.22:002][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.10-19.38.22:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.22:002][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.22:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.10-19.38.22:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.10-19.38.22:015][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.10-19.38.22:016][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.10-19.38.22:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.10-19.38.22:018][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.10-19.38.22:019][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.10-19.38.22:020][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.10-19.38.22:020][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.10-19.38.22:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.10-19.38.22:040][  0]LogHAL: Display: Platform has ~ 32 GB [34118209536 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.10-19.38.22:040][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.10-19.38.22:040][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.10-19.38.22:040][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:040][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.10-19.38.22:040][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.10-19.38.22:040][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.10-19.38.22:041][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.10-19.38.22:042][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.10-19.38.22:043][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.10-19.38.22:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.10-19.38.22:045][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:045][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.10-19.38.22:046][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.10-19.38.22:047][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.10-19.38.22:048][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Scalability.ini]
+[2019.12.10-19.38.22:048][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.10-19.38.22:048][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.10-19.38.22:048][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.10-19.38.22:048][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.10-19.38.22:048][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.10-19.38.22:048][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Config/Windows/Engine.ini]
+[2019.12.10-19.38.22:049][  0]LogInit: Computer: XPS-XUZON
+[2019.12.10-19.38.22:049][  0]LogInit: User: danie
+[2019.12.10-19.38.22:049][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.10-19.38.22:049][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.10-19.38.22:049][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.12.10-19.38.22:049][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.10-19.38.22:049][  0]LogMemory: Process Physical Memory: 96.46 MB used, 96.47 MB peak
+[2019.12.10-19.38.22:049][  0]LogMemory: Process Virtual Memory: 90.75 MB used, 90.75 MB peak
+[2019.12.10-19.38.22:049][  0]LogMemory: Physical Memory: 14311.91 MB used,  18225.75 MB free, 32537.66 MB total
+[2019.12.10-19.38.22:050][  0]LogMemory: Virtual Memory: 4643.77 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.10-19.38.22:292][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.10-19.38.22:292][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.12.10-19.38.22:292][  0]LogInit: Using OS detected locale (es-ES).
+[2019.12.10-19.38.22:470][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.10-19.38.22:534][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.10-19.38.22:534][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.10-19.38.22:748][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.10-19.38.22:748][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.10-19.38.22:855][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Plus Graphics' (Feature Level 11_0)
+[2019.12.10-19.38.22:855][  0]LogD3D11RHI:       128/0/16268 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.12.10-19.38.22:861][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.10-19.38.22:861][  0]LogD3D11RHI:       0/0/16268 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.10-19.38.22:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.10-19.38.22:869][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.10-19.38.22:870][  0]LogD3D11RHI:     GPU DeviceId: 0x8a52 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.10-19.38.22:870][  0]LogWindows: EnumDisplayDevices:
+[2019.12.10-19.38.22:870][  0]LogWindows:    0. 'Intel(R) Iris(R) Plus Graphics' (P:1 D:1)
+[2019.12.10-19.38.22:870][  0]LogWindows:    1. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:871][  0]LogWindows:    2. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:871][  0]LogWindows:    3. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:871][  0]LogWindows:    4. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:872][  0]LogWindows:    5. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:872][  0]LogWindows:    6. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:873][  0]LogWindows:    7. 'Intel(R) Iris(R) Plus Graphics' (P:0 D:0)
+[2019.12.10-19.38.22:873][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2019.12.10-19.38.22:873][  0]LogD3D11RHI:     Adapter Name: Intel(R) Iris(R) Plus Graphics
+[2019.12.10-19.38.22:873][  0]LogD3D11RHI:   Driver Version: 26.20.100.7463 (internal:26.20.100.7463, unified:26.20.100.7463)
+[2019.12.10-19.38.22:873][  0]LogD3D11RHI:      Driver Date: 11-6-2019
+[2019.12.10-19.38.22:873][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2019.12.10-19.38.22:952][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.10-19.38.22:956][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.10-19.38.22:957][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.10-19.38.22:957][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.10-19.38.22:960][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2019.12.10-19.38.23:338][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.10-19.38.23:361][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.10-19.38.23:382][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.10-19.38.23:403][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.10-19.38.23:427][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.10-19.38.23:449][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.10-19.38.23:470][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.10-19.38.23:491][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.10-19.38.23:503][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.10-19.38.23:651][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.10-19.38.23:651][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.10-19.38.23:652][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.10-19.38.23:653][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.10-19.38.23:664][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.10-19.38.23:738][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.10-19.38.23:738][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.10-19.38.23:774][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.10-19.38.23:774][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.10-19.38.23:794][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.10-19.38.23:815][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.10-19.38.23:836][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.10-19.38.23:857][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.10-19.38.23:915][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.10-19.38.23:915][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.10-19.38.23:916][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.10-19.38.23:939][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.10-19.38.24:073][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Intermediate/Shaders/WorkingDirectory/18804/).
+[2019.12.10-19.38.24:073][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/2D9BA27F40D35AF01F1A99AE539E6BE3/'.
+[2019.12.10-19.38.24:077][  0]LogXGEController: Cleaning working directory: C:/Users/danie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.10-19.38.24:078][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.10-19.38.24:078][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.10-19.38.24:078][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.10-19.38.24:795][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.10-19.38.24:843][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.10-19.38.24:843][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.10-19.38.24:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.10-19.38.24:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.10-19.38.24:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.10-19.38.24:844][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.10-19.38.24:859][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.10-19.38.24:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.10-19.38.24:859][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.10-19.38.24:874][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.10-19.38.24:874][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.10-19.38.24:874][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.10-19.38.24:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.10-19.38.24:902][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.10-19.38.24:902][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.10-19.38.24:989][  0]LogAssetRegistry: FAssetRegistry took 0.0376 seconds to start up
+[2019.12.10-19.38.25:335][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.10-19.38.25:493][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.10-19.38.25:493][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.10-19.38.25:493][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.10-19.38.25:493][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.10-19.38.25:493][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.10-19.38.25:506][  0]LogNetVersion: CppCourse 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 78934064)
+[2019.12.10-19.38.25:959][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.044133 seconds
+[2019.12.10-19.38.25:966][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.10-19.38.25:966][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.10-19.38.25:966][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.10-19.38.26:958][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.10-19.38.26:977][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.10-19.38.27:215][  0]SourceControl: Source control is disabled
+[2019.12.10-19.38.27:215][  0]SourceControl: Source control is disabled
+[2019.12.10-19.38.27:220][  0]SourceControl: Source control is disabled
+[2019.12.10-19.38.27:225][  0]SourceControl: Source control is disabled
+[2019.12.10-19.38.27:437][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.10-19.38.27:846][  0]LogOcInput: OculusInput pre-init called
+[2019.12.10-19.38.28:596][  0]LogEngine: Initializing Engine...
+[2019.12.10-19.38.28:597][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.10-19.38.28:598][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.10-19.38.28:810][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.10-19.38.28:829][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.10-19.38.28:907][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.10-19.38.29:284][  0]LogInit: FAudioDevice initialized.
+[2019.12.10-19.38.29:284][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.10-19.38.29:346][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.10-19.38.29:354][  0]LogInit: Texture streaming: Enabled
+[2019.12.10-19.38.29:387][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.10-19.38.29:388][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A3155F33-4AE5-6D8D-683E-2CAB1F146065}
+[2019.12.10-19.38.29:411][  0]LogInit: Transaction tracking system initialized
+[2019.12.10-19.38.29:458][  0]BlueprintLog: New page: Editor Load
+[2019.12.10-19.38.29:620][  0]LocalizationService: Localization service is disabled
+[2019.12.10-19.38.30:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/' took 0.02s
+[2019.12.10-19.38.30:067][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.10-19.38.30:068][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.10-19.38.30:420][  0]SourceControl: Source control is disabled
+[2019.12.10-19.38.30:420][  0]Cmd: MAP LOAD FILE="../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Levels/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.10-19.38.30:421][  0]LightingResults: New page: Lighting Build
+[2019.12.10-19.38.30:425][  0]MapCheck: New page: Map Check
+[2019.12.10-19.38.30:426][  0]LightingResults: New page: Lighting Build
+[2019.12.10-19.38.30:458][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.12.10-19.38.30:564][  0]LogAIModule: Creating AISystem for world Maze
+[2019.12.10-19.38.30:570][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.10-19.38.30:604][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.12.10-19.38.30:605][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.10-19.38.30:605][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,241ms to complete.
+[2019.12.10-19.38.30:605][  0]LogFileHelpers: Loading map 'Maze' took 0.185
+[2019.12.10-19.38.30:741][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.10-19.38.30:754][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.10-19.38.30:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.10-19.38.30:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.10-19.38.30:783][  0]LogCollectionManager: Loaded 0 collections in 0.002393 seconds
+[2019.12.10-19.38.30:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Collections/' took 0.01s
+[2019.12.10-19.38.30:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Developers/danie/Collections/' took 0.00s
+[2019.12.10-19.38.30:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Collections/' took 0.02s
+[2019.12.10-19.38.30:820][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.10-19.38.30:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2740 classes and 661 folders.
+[2019.12.10-19.38.30:841][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.12.10-19.38.30:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:846][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:849][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:850][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:851][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:852][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:853][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:854][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:856][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:857][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:860][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.10-19.38.30:889][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.10-19.38.30:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.12.10-19.38.30:921][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.10-19.38.30:924][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.10-19.38.30:932][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.10-19.38.31:019][  0]LogRenderer: Reallocating scene render targets to support 1072x568 Format 10 NumSamples 1 (Frame:1).
+[2019.12.10-19.38.31:280][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.10-19.38.31:281][  0]LogLoad: (Engine Initialization) Total time: 11.43 seconds
+[2019.12.10-19.38.31:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.10-19.38.31:488][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.10-19.38.31:550][  1]LogAssetRegistry: Asset discovery search completed in 6.5863 seconds
+[2019.12.10-19.38.31:558][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.10-19.38.31:559][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000404 seconds (updated 0 objects)
+[2019.12.10-19.38.39:701][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.10-19.38.40:238][217]LogEditor: Attempting to add actor of class 'MyActor' to level at 390.00,610.00,150.00
+[2019.12.10-19.38.43:745][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.10-19.38.44:189][336]LogEditor: Attempting to add actor of class 'Gem' to level at 480.00,500.00,230.00
+[2019.12.10-19.38.44:189][336]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.38.45:509][368]LogEditor: Attempting to add actor of class 'Gem' to level at 170.00,250.00,20.00
+[2019.12.10-19.38.45:512][368]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.38.58:564][690]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.39.01:209][753]LogUObjectGlobals: Warning: Failed to find object 'Object /Script/CppCourse.CppCourseGameMode'
+[2019.12.10-19.39.01:250][753]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.10-19.39.02:192][790]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.10-19.39.02:850][810]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.10-19.39.02:858][810]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Maze.Maze:PersistentLevel.Maze
+[2019.12.10-19.39.03:533][810]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.12.10-19.39.04:358][810]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.10-19.39.12:341][977]LogSlate: Took 0.016098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.10-19.39.25:988][267]LogAssetEditorManager: Opening Asset editor for Class /Script/CppCourse.Gem
+[2019.12.10-19.40.02:968][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.10-19.40.05:340][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.10-19.40.05:483][458]Candidate modules for hot reload:
+[2019.12.10-19.40.05:483][458]  CppCourse
+[2019.12.10-19.40.05:484][458]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppCourse,3414 Win64 Development -TargetType=Editor -Project="C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject" "C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject"  -IgnoreJunk]
+[2019.12.10-19.40.05:491][458]Warning: Starting HotReload took  0.0s.
+[2019.12.10-19.40.53:307][486]CompilerResultsLog: New page: Compilation - 10/12/2019 21:40:53
+[2019.12.10-19.40.53:308][486]CompilerResultsLog: Creating makefile for CppCourseEditor (ini files are newer than makefile)
+[2019.12.10-19.40.53:309][486]CompilerResultsLog: Parsing headers for CppCourseEditor
+[2019.12.10-19.40.53:309][486]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\CppCourse.uproject" "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\CppCourseEditor\Development\CppCourseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.10-19.40.53:310][486]CompilerResultsLog: Reflection code generated for CppCourseEditor in 28,2789301 seconds
+[2019.12.10-19.40.53:310][486]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.40.53:310][486]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.40.53:311][486]CompilerResultsLog: Attempting to retry...
+[2019.12.10-19.40.53:311][486]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.40.53:312][486]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.40.53:312][486]CompilerResultsLog: Attempting to retry...
+[2019.12.10-19.40.53:313][486]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.40.53:313][486]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.40.53:313][486]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.10-19.40.53:314][486]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.10-19.40.53:315][486]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.10-19.40.53:315][486]CompilerResultsLog:   [1/6] CppCourse.init.gen.cpp
+[2019.12.10-19.40.53:316][486]CompilerResultsLog:   [2/6] Gem.cpp
+[2019.12.10-19.40.53:316][486]CompilerResultsLog:   [3/6] Gem.gen.cpp
+[2019.12.10-19.40.53:316][486]CompilerResultsLog:   [4/6] UE4Editor-CppCourse-3414.lib
+[2019.12.10-19.40.53:317][486]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3414.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3414.exp
+[2019.12.10-19.40.53:317][486]CompilerResultsLog:   [5/6] UE4Editor-CppCourse-3414.dll
+[2019.12.10-19.40.53:317][486]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3414.suppressed.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3414.suppressed.exp
+[2019.12.10-19.40.53:318][486]CompilerResultsLog:   [6/6] CppCourseEditor.target
+[2019.12.10-19.40.53:318][486]CompilerResultsLog: Total time in Parallel executor: 8,77 seconds
+[2019.12.10-19.40.53:319][486]CompilerResultsLog: Total execution time: 47,44 seconds
+[2019.12.10-19.40.53:319][486]LogMainFrame: MainFrame: Module compiling took 47.849 seconds
+[2019.12.10-19.40.53:472][486]LogUObjectHash: Compacting FUObjectHashTables data took  10.71ms
+[2019.12.10-19.40.53:477][486]LogBlueprintActionDatabase: Requesting refresh due to module change: CppCourse (unloaded)
+[2019.12.10-19.40.53:595][486]LogClass: Could not find existing class Gem in package /Script/CppCourse for HotReload, assuming new class
+[2019.12.10-19.40.53:634][486]LogHotReload: Re-instancing Gem after hot-reload.
+[2019.12.10-19.40.53:634][486]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.40.53:636][486]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.40.53:935][486]LogHotReload: Re-instancing MyActor after hot-reload.
+[2019.12.10-19.40.54:125][486]LogBlueprintActionDatabase: Requesting refresh due to module change: CppCourse (loaded)
+[2019.12.10-19.40.54:126][486]LogContentBrowser: Native class hierarchy updated for 'CppCourse' in 0.0007 seconds. Added 8 classes and 2 folders.
+[2019.12.10-19.40.54:130][486]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.10-19.40.54:299][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.12.10-19.40.54:301][486]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.10-19.40.54:325][486]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2741 classes and 663 folders.
+[2019.12.10-19.40.54:325][486]Display: HotReload took 48.9s.
+[2019.12.10-19.41.11:829][854]LogAssetEditorManager: Opening Asset editor for Class /Script/CppCourse.CppAdventurer
+[2019.12.10-19.44.16:019][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maze" FILE="../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Levels/Maze.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.10-19.44.16:192][925]LogUObjectHash: Compacting FUObjectHashTables data took  16.32ms
+[2019.12.10-19.44.16:585][925]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/Maze59B342084AE417A0257D37B933CE111B.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Levels/Maze.umap'
+[2019.12.10-19.44.16:637][925]LogFileHelpers: Saving map 'Maze' took 0.620
+[2019.12.10-19.44.16:682][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.10-19.44.16:769][930]BlueprintLog: New page: Compile Maze
+[2019.12.10-19.44.17:124][930]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.12.10-19.44.32:480][220]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.12.10-19.48.45:199][ 84]BlueprintLog: New page: Compile Maze
+[2019.12.10-19.48.45:688][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.12.10-19.48.46:273][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maze" FILE="../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Levels/Maze.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.10-19.48.46:361][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2019.12.10-19.48.46:746][ 95]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Saved/MazeE6B24F6F4365D568EE17B0AC7F3C81BB.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Content/Levels/Maze.umap'
+[2019.12.10-19.48.46:792][ 95]LogFileHelpers: Saving map 'Maze' took 0.519
+[2019.12.10-19.48.52:004][167]LogAssetEditorManager: Opening Asset editor for Class /Script/CppCourse.Gem
+[2019.12.10-19.48.54:883][188]LogAssetEditorManager: Opening Asset editor for Class /Script/CppCourse.MyActor
+[2019.12.10-19.48.55:263][188]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Source/CppCourse/MyActor.h'
+[2019.12.10-19.48.55:488][188]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/Source/CppCourse/MyActor.cpp'
+[2019.12.10-19.49.44:854][359]LogSlate: Window 'Maze' being destroyed
+[2019.12.10-19.49.44:946][359]LogSlate: Window 'Maze' being destroyed
+[2019.12.10-19.49.46:780][390]Candidate modules for hot reload:
+[2019.12.10-19.49.46:780][390]  CppCourse
+[2019.12.10-19.49.46:781][390]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppCourse,3714 Win64 Development -TargetType=Editor -Project="C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject" "C:/Users/danie/OneDrive/Documentos/Unreal Projects/CppCourse/CppCourse.uproject"  -IgnoreJunk]
+[2019.12.10-19.49.46:791][390]Warning: Starting HotReload took  0.0s.
+[2019.12.10-19.50.30:065][220]CompilerResultsLog: New page: Compilation - 10/12/2019 21:50:30
+[2019.12.10-19.50.30:066][220]CompilerResultsLog: Creating makefile for CppCourseEditor (ini files are newer than makefile)
+[2019.12.10-19.50.30:066][220]CompilerResultsLog: Parsing headers for CppCourseEditor
+[2019.12.10-19.50.30:066][220]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\CppCourse.uproject" "C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\CppCourseEditor\Development\CppCourseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.10-19.50.30:066][220]CompilerResultsLog: Reflection code generated for CppCourseEditor in 29,5054092 seconds
+[2019.12.10-19.50.30:066][220]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.50.30:067][220]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.50.30:067][220]CompilerResultsLog: Attempting to retry...
+[2019.12.10-19.50.30:067][220]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.50.30:067][220]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.50.30:067][220]CompilerResultsLog: Attempting to retry...
+[2019.12.10-19.50.30:067][220]CompilerResultsLog: Failed to delete file 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'
+[2019.12.10-19.50.30:068][220]CompilerResultsLog:     Exception: Acceso denegado a la ruta de acceso 'C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Binaries\Win64\UE4Editor-CppCourse.pdb'.
+[2019.12.10-19.50.30:068][220]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.10-19.50.30:068][220]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.10-19.50.30:068][220]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.10-19.50.30:068][220]CompilerResultsLog:   [1/4] Gem.cpp
+[2019.12.10-19.50.30:069][220]CompilerResultsLog:   [2/4] UE4Editor-CppCourse-3714.lib
+[2019.12.10-19.50.30:069][220]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3714.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3714.exp
+[2019.12.10-19.50.30:069][220]CompilerResultsLog:   [3/4] UE4Editor-CppCourse-3714.dll
+[2019.12.10-19.50.30:069][220]CompilerResultsLog:      Creando biblioteca C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3714.suppressed.lib y objeto C:\Users\danie\OneDrive\Documentos\Unreal Projects\CppCourse\Intermediate\Build\Win64\UE4Editor\Development\CppCourse\UE4Editor-CppCourse-3714.suppressed.exp
+[2019.12.10-19.50.30:069][220]CompilerResultsLog:   [4/4] CppCourseEditor.target
+[2019.12.10-19.50.30:069][220]CompilerResultsLog: Total time in Parallel executor: 2,09 seconds
+[2019.12.10-19.50.30:070][220]CompilerResultsLog: Total execution time: 42,92 seconds
+[2019.12.10-19.50.30:070][220]LogMainFrame: MainFrame: Module compiling took 43.301 seconds
+[2019.12.10-19.50.30:150][220]LogUObjectHash: Compacting FUObjectHashTables data took   9.29ms
+[2019.12.10-19.50.30:153][220]LogBlueprintActionDatabase: Requesting refresh due to module change: CppCourse (unloaded)
+[2019.12.10-19.50.30:231][220]LogHotReload: Re-instancing Gem after hot-reload.
+[2019.12.10-19.50.30:232][220]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.50.30:234][220]LogActor: Warning: Gem /Game/Levels/Maze.Maze:PersistentLevel.Gem_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.10-19.50.30:582][220]LogBlueprintActionDatabase: Requesting refresh due to module change: CppCourse (loaded)
+[2019.12.10-19.50.30:583][220]LogContentBrowser: Native class hierarchy updated for 'CppCourse' in 0.0009 seconds. Added 8 classes and 2 folders.
+[2019.12.10-19.50.30:592][220]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.10-19.50.30:801][220]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
+[2019.12.10-19.50.30:804][220]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.10-19.50.30:842][220]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2741 classes and 663 folders.
+[2019.12.10-19.50.30:842][220]Display: HotReload took 44.1s.
+[2019.12.10-19.50.33:348][258]LogUObjectHash: Compacting FUObjectHashTables data took   9.41ms
+[2019.12.10-19.50.33:523][258]LogSlate: Window 'CppCourse - Unreal Editor' being destroyed
+[2019.12.10-19.50.33:524][258]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.10-19.50.33:928][259]Cmd: QUIT_EDITOR
+[2019.12.10-19.50.34:101][259]LogExit: Preparing to exit.
+[2019.12.10-19.50.35:233][259]LogExit: Editor shut down
+[2019.12.10-19.50.35:234][259]LogExit: Transaction tracking system shut down
+[2019.12.10-19.50.35:544][259]LogExit: Object subsystem successfully closed.
+[2019.12.10-19.50.35:596][259]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.12.10-19.50.35:602][259]LogD3D11RHI: Shutdown
+[2019.12.10-19.50.35:602][259]LogD3D11RHI: CleanupD3DDevice
+[2019.12.10-19.50.35:604][259]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.10-19.50.35:605][259]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.10-19.50.35:605][259]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.10-19.50.35:605][259]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.10-19.50.35:605][259]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.10-19.50.35:605][259]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.10-19.50.35:765][259]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.10-19.50.35:794][259]LogModuleManager: Shutting down and abandoning module CppCourse (648)
+[2019.12.10-19.50.35:794][259]LogModuleManager: Shutting down and abandoning module BlueprintGraph (646)
+[2019.12.10-19.50.35:794][259]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.12.10-19.50.35:794][259]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.12.10-19.50.35:794][259]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.12.10-19.50.35:795][259]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.12.10-19.50.35:795][259]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.12.10-19.50.35:796][259]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.12.10-19.50.35:796][259]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.12.10-19.50.35:796][259]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.12.10-19.50.35:796][259]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.12.10-19.50.35:796][259]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.12.10-19.50.35:797][259]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.12.10-19.50.35:798][259]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.12.10-19.50.35:799][259]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.12.10-19.50.35:800][259]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.12.10-19.50.35:801][259]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.12.10-19.50.35:802][259]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.12.10-19.50.35:803][259]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.12.10-19.50.35:803][259]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.12.10-19.50.35:803][259]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.12.10-19.50.35:803][259]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.12.10-19.50.35:803][259]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.12.10-19.50.35:804][259]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)

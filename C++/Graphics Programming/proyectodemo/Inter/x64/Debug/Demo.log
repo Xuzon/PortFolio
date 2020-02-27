@@ -1,0 +1,8 @@
+﻿  Demo.cpp
+  Ball.cpp
+C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\proyectodemo\Src\Logic\Ball.cpp(43,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\proyectodemo\Src\Logic\Ball.cpp(44,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Snake.cpp
+  RenderThread.cpp
+  Generando código...
+  Demo.vcxproj -> C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\proyectodemo\Exes\Demo.exe

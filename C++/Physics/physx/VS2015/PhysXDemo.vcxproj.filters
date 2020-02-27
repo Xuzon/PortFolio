@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\PhysXDemo\Camera.cpp" />
+    <ClCompile Include="..\PhysXDemo\DebugUtils.cpp" />
+    <ClCompile Include="..\PhysXDemo\DemoApp.cpp" />
+    <ClCompile Include="..\PhysXDemo\Level.cpp" />
+    <ClCompile Include="..\PhysXDemo\main.cpp" />
+    <ClCompile Include="..\PhysXDemo\Mesh.cpp" />
+    <ClCompile Include="..\PhysXDemo\PhysicsWorld.cpp" />
+    <ClCompile Include="..\PhysXDemo\raw_mouse.cpp" />
+    <ClCompile Include="..\PhysXDemo\CharDisplacer.cpp" />
+    <ClCompile Include="..\PhysXDemo\Trigger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PhysXDemo\Camera.h" />
+    <ClInclude Include="..\PhysXDemo\DebugUtils.h" />
+    <ClInclude Include="..\PhysXDemo\DemoApp.h" />
+    <ClInclude Include="..\PhysXDemo\Level.h" />
+    <ClInclude Include="..\PhysXDemo\Mesh.h" />
+    <ClInclude Include="..\PhysXDemo\PhysicsWorld.h" />
+    <ClInclude Include="..\PhysXDemo\raw_mouse.h" />
+    <ClInclude Include="..\PhysXDemo\CharDisplacer.h" />
+    <ClInclude Include="..\PhysXDemo\Trigger.h" />
+  </ItemGroup>
+</Project>

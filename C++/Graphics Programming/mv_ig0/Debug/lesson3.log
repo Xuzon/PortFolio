@@ -1,0 +1,6 @@
+﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  lesson3.cpp
+C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\mv_ig0\lesson3.cpp(147,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : vea la declaración de 'fopen'
+C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\mv_ig0\lesson3.cpp(509,3): warning C4838: la conversión de 'int' en 'BYTE' requiere una conversión de restricción
+  lesson3.vcxproj -> C:\Users\danie\OneDrive\Documentos\Docs\UCM\Programación Gráfica\mv_ig0\.\Debug\lesson3.exe

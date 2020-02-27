@@ -1,0 +1,8 @@
+{
+	"BuildId": "5660361",
+	"Modules": 
+	{
+		"TopDownEditor": "UE4Editor-TopDownEditor.dll",
+		"TopDownEditorEditor": "UE4Editor-TopDownEditorEditor.dll"
+	}
+}

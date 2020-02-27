@@ -1,0 +1,10 @@
+﻿  Ball.cpp
+  DemoApp.cpp
+  Map.cpp
+  Physics.cpp
+C:\Users\Dani\OneDrive\Documentos\Docs\UCM\Física\little_engine\BasicPhysics\Physics.cpp(60,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Dani\OneDrive\Documentos\Docs\UCM\Física\little_engine\BasicPhysics\Physics.cpp(86,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Dani\OneDrive\Documentos\Docs\UCM\Física\little_engine\BasicPhysics\Physics.cpp(96,17): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Dani\OneDrive\Documentos\Docs\UCM\Física\little_engine\BasicPhysics\Physics.cpp(114,17): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+  BasicPhysics.vcxproj -> C:\Users\Dani\OneDrive\Documentos\Docs\UCM\Física\little_engine\VS2015\BasicPhysics\Debug\BasicPhysics.exe

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C27A426A-790B-4B61-B81D-5B08FEE5614C}</ProjectGuid>
+    <RootNamespace>ogro_invasion</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\freetype\include; $(SolutionDir)..\src\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\src\freetype\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>..\$(ProjectName).exe</OutputFile>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\freetype\include; $(SolutionDir)..\src\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\src\freetype\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>..\$(ProjectName).exe</OutputFile>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\camera.cpp" />
+    <ClCompile Include="..\src\collider.cpp" />
+    <ClCompile Include="..\src\enemy.cpp" />
+    <ClCompile Include="..\src\entity.cpp" />
+    <ClCompile Include="..\src\example.cpp" />
+    <ClCompile Include="..\src\explosion.cpp" />
+    <ClCompile Include="..\src\freetypefont.cpp" />
+    <ClCompile Include="..\src\frustum.cpp" />
+    <ClCompile Include="..\src\gameworld.cpp" />
+    <ClCompile Include="..\src\glwindow.cpp" />
+    <ClCompile Include="..\src\landscape.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\md2model.cpp" />
+    <ClCompile Include="..\src\ogro.cpp" />
+    <ClCompile Include="..\src\player.cpp" />
+    <ClCompile Include="..\src\rocket.cpp" />
+    <ClCompile Include="..\src\spherecollider.cpp" />
+    <ClCompile Include="..\src\targa.cpp" />
+    <ClCompile Include="..\src\terrain.cpp" />
+    <ClCompile Include="..\src\terraincollider.cpp" />
+    <ClCompile Include="..\src\tree.cpp" />
+    <ClCompile Include="..\src\glee\GLee.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\boglgpwindow.h" />
+    <ClInclude Include="..\src\camera.h" />
+    <ClInclude Include="..\src\collider.h" />
+    <ClInclude Include="..\src\enemy.h" />
+    <ClInclude Include="..\src\entity.h" />
+    <ClInclude Include="..\src\entitytypes.h" />
+    <ClInclude Include="..\src\example.h" />
+    <ClInclude Include="..\src\explosion.h" />
+    <ClInclude Include="..\src\freetypefont.h" />
+    <ClInclude Include="..\src\frustum.h" />
+    <ClInclude Include="..\src\gameworld.h" />
+    <ClInclude Include="..\src\geom.h" />
+    <ClInclude Include="..\src\glslshader.h" />
+    <ClInclude Include="..\src\glwindow.h" />
+    <ClInclude Include="..\src\keyboardinterface.h" />
+    <ClInclude Include="..\src\landscape.h" />
+    <ClInclude Include="..\src\md2model.h" />
+    <ClInclude Include="..\src\mouseinterface.h" />
+    <ClInclude Include="..\src\ogro.h" />
+    <ClInclude Include="..\src\player.h" />
+    <ClInclude Include="..\src\rocket.h" />
+    <ClInclude Include="..\src\spherecollider.h" />
+    <ClInclude Include="..\src\targa.h" />
+    <ClInclude Include="..\src\terrain.h" />
+    <ClInclude Include="..\src\terraincollider.h" />
+    <ClInclude Include="..\src\tree.h" />
+    <ClInclude Include="..\src\uncopyable.h" />
+    <ClInclude Include="..\src\win32keyboardinterface.h" />
+    <ClInclude Include="..\src\win32mouseinterface.h" />
+    <ClInclude Include="..\src\xkeyboardinterface.h" />
+    <ClInclude Include="..\src\xmouseinterface.h" />
+    <ClInclude Include="..\src\glee\GLee.h" />
+    <ClInclude Include="..\src\glx\glext.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

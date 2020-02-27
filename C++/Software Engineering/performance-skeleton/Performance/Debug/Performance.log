@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Performance\Test1.h(17,30): warning C4018: '<': no coinciden signed/unsigned
+C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Performance\Test1.h(35,30): warning C4018: '<': no coinciden signed/unsigned
+C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Performance\Test0.h(30,6): warning C4101: 'aux': variable local sin referencia
+C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Performance\Test0.h(28): message : al compilar la función del miembro clase plantilla "void Test0<Imagen *,100>::run(void)"
+C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Performance\Test0.h(46): message : vea la referencia a la creación de instancias de clase plantilla "Test0<Imagen *,100>" que se está compilando
+  Performance.vcxproj -> C:\Data\UCM\Arquitectura de Software\Codigo\performance-skeleton\Debug\Performance.exe

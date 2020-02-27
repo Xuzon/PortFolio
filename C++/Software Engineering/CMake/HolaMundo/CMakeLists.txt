@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(HolaMundo)
+SET(SRC
+    HolaMundo.c
+)
+ADD_EXECUTABLE( HolaMundo ${SRC})

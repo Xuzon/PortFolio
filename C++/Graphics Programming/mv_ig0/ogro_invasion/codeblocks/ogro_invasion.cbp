@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<CodeBlocks_project_file>
+    <FileVersion major="1" minor="6"/>
+    <Project>
+        <Option title="ogro_invasion"/>
+        <Option pch_mode="2"/>
+        <Option compiler="gcc"/>
+        <Build>
+            <Target title="Debug">
+                <Option extension_auto="1" output="../ogro_invasion_debug" prefix_auto="1"/>
+                <Option working_dir="../"/>
+                <Option object_output="obj/Debug/"/>
+                <Option type="1"/>
+                <Option compiler="gcc"/>
+                <Compiler>
+                    <Add option="-g"/>
+                </Compiler>
+            </Target>
+            <Target title="Release">
+                <Option extension_auto="1" output="../ogro_invasion_release" prefix_auto="1"/>
+                <Option working_dir="../"/>
+                <Option object_output="obj/Release/"/>
+                <Option type="1"/>
+                <Option compiler="gcc"/>
+                <Compiler>
+                    <Add option="-O2"/>
+                </Compiler>
+                <Linker>
+                    <Add option="-s"/>
+                </Linker>
+            </Target>
+        </Build>
+        <Compiler>
+            <Add option="-Wall"/>
+            <Add directory="/usr/include/freetype2"/>
+        </Compiler>
+        <Linker>
+            <Add library="libGL.a"/>
+            <Add library="libGLU.a"/>
+            <Add library="libXxf86vm.a"/>
+            <Add library="libfreetype.a"/>
+        </Linker>
+        <Unit filename="../src/camera.cpp"/>
+        <Unit filename="../src/collider.cpp"/>
+        <Unit filename="../src/enemy.cpp"/>
+        <Unit filename="../src/entity.cpp"/>
+        <Unit filename="../src/example.cpp"/>
+        <Unit filename="../src/explosion.cpp"/>
+        <Unit filename="../src/freetypefont.cpp"/>
+        <Unit filename="../src/frustum.cpp"/>
+        <Unit filename="../src/gameworld.cpp"/>
+        <Unit filename="../src/glxwindow.cpp"/>
+        <Unit filename="../src/landscape.cpp"/>
+        <Unit filename="../src/main.cpp"/>
+        <Unit filename="../src/md2model.cpp"/>
+        <Unit filename="../src/ogro.cpp"/>
+        <Unit filename="../src/player.cpp"/>
+        <Unit filename="../src/rocket.cpp"/>
+        <Unit filename="../src/spherecollider.cpp"/>
+        <Unit filename="../src/targa.cpp"/>
+        <Unit filename="../src/terrain.cpp"/>
+        <Unit filename="../src/terraincollider.cpp"/>
+        <Unit filename="../src/tree.cpp"/>
+        <Unit filename="../src/glee/GLee.c">
+            <Option compilerVar="CC"/>
+        </Unit>
+        <Unit filename="../src/boglgpwindow.h"/>
+        <Unit filename="../src/camera.h"/>
+        <Unit filename="../src/collider.h"/>
+        <Unit filename="../src/enemy.h"/>
+        <Unit filename="../src/entity.h"/>
+        <Unit filename="../src/entitytypes.h"/>
+        <Unit filename="../src/example.h"/>
+        <Unit filename="../src/explosion.h"/>
+        <Unit filename="../src/freetypefont.h"/>
+        <Unit filename="../src/frustum.h"/>
+        <Unit filename="../src/gameworld.h"/>
+        <Unit filename="../src/geom.h"/>
+        <Unit filename="../src/glslshader.h"/>
+        <Unit filename="../src/glxwindow.h"/>
+        <Unit filename="../src/keyboardinterface.h"/>
+        <Unit filename="../src/landscape.h"/>
+        <Unit filename="../src/md2model.h"/>
+        <Unit filename="../src/mouseinterface.h"/>
+        <Unit filename="../src/ogro.h"/>
+        <Unit filename="../src/player.h"/>
+        <Unit filename="../src/rocket.h"/>
+        <Unit filename="../src/spherecollider.h"/>
+        <Unit filename="../src/targa.h"/>
+        <Unit filename="../src/terrain.h"/>
+        <Unit filename="../src/terraincollider.h"/>
+        <Unit filename="../src/tree.h"/>
+        <Unit filename="../src/uncopyable.h"/>
+        <Unit filename="../src/win32keyboardinterface.h"/>
+        <Unit filename="../src/win32mouseinterface.h"/>
+        <Unit filename="../src/xkeyboardinterface.h"/>
+        <Unit filename="../src/xmouseinterface.h"/>
+        <Unit filename="../src/glee/GLee.h"/>
+        <Unit filename="../src/glx/glext.h"/>
+        <Unit filename="../src/glx/glxext.h"/>
+    </Project>
+</CodeBlocks_project_file>

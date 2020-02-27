@@ -1,0 +1,33 @@
+bool CPhysics::CheckSegmentToSegmentCollision( const sSegment &s0, const sSegment &s1, CVector3D &resul )
+{
+	float x1_ = s0.p[0].x;
+	float x2_ = s0.p[1].x;
+	float y1_ = s0.p[0].y;
+	float y2_ = s0.p[1].y;
+	float x3_ = s1.p[0].x;
+	float x4_ = s1.p[1].x;
+	float y3_ = s1.p[0].y;
+	float y4_ = s1.p[1].y;
+	float r, s, d;
+
+	// Si no son paralelas...
+	if ((y2_ - y1_) / (x2_ - x1_) != (y4_ - y3_) / (x4_ - x3_))
+	{
+		d = (((x2_ - x1_) * (y4_ - y3_)) - (y2_ - y1_) * (x4_ - x3_));
+		if (d != 0)
+		{
+			r = (((y1_ - y3_) * (x4_ - x3_)) - (x1_ - x3_) * (y4_ - y3_)) / d;
+			s = (((y1_ - y3_) * (x2_ - x1_)) - (x1_ - x3_) * (y2_ - y1_)) / d;
+			if (r >= 0 && r <= 1)
+			{
+				if (s >= 0 && s <= 1)
+				{
+					resul.x = x1_ + r * (x2_ - x1_);
+					resul.y = y1_ + r * (y2_ - y1_);
+					return true;
+				}
+			}
+		}
+	}
+	return false;
+}

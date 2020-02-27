@@ -1,0 +1,1186 @@
+﻿Log file open, 11/28/19 18:17:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BlueprintsAvanzados
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.347172
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=DenyBitG -epicuserid=0cc7274eedc74723b4e17c7fc4fdddd7 -epiclocale=es-ES
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.28-17.17.25:032][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.28-17.17.25:032][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:033][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:035][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-17.17.25:035][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-17.17.25:036][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-17.17.25:036][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-17.17.25:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.28-17.17.25:052][  0]LogHAL: Display: Platform has ~ 8 GB [8188608512 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.28-17.17.25:053][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.28-17.17.25:053][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-17.17.25:053][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-17.17.25:054][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-17.17.25:055][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.28-17.17.25:056][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.28-17.17.25:056][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.28-17.17.25:056][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Config/Windows/Engine.ini]
+[2019.11.28-17.17.25:056][  0]LogInit: Computer: DESKTOP-UNOLJDV
+[2019.11.28-17.17.25:056][  0]LogInit: User: danie
+[2019.11.28-17.17.25:056][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.28-17.17.25:056][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.28-17.17.25:056][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx)
+[2019.11.28-17.17.25:056][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.28-17.17.25:056][  0]LogMemory: Process Physical Memory: 97.54 MB used, 97.54 MB peak
+[2019.11.28-17.17.25:056][  0]LogMemory: Process Virtual Memory: 92.66 MB used, 92.66 MB peak
+[2019.11.28-17.17.25:056][  0]LogMemory: Physical Memory: 6360.00 MB used,  1449.27 MB free, 7809.27 MB total
+[2019.11.28-17.17.25:056][  0]LogMemory: Virtual Memory: 4645.83 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.28-17.17.25:092][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.11.28-17.17.25:092][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.11.28-17.17.25:092][  0]LogInit: Using OS detected locale (es-ES).
+[2019.11.28-17.17.25:398][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.28-17.17.25:450][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.28-17.17.25:450][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.28-17.17.25:846][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.11.28-17.17.25:846][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.28-17.17.25:916][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.11.28-17.17.25:916][  0]LogD3D11RHI:       128/0/3904 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.11.28-17.17.25:920][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.28-17.17.25:920][  0]LogD3D11RHI:       0/0/3904 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.28-17.17.25:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.28-17.17.25:926][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.28-17.17.25:926][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.28-17.17.25:926][  0]LogWindows: EnumDisplayDevices:
+[2019.11.28-17.17.25:926][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.11.28-17.17.25:926][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.11.28-17.17.25:927][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.11.28-17.17.25:927][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.11.28-17.17.25:927][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2019.11.28-17.17.25:927][  0]LogD3D11RHI:   Driver Version: 25.20.100.6472 (internal:25.20.100.6472, unified:25.20.100.6472)
+[2019.11.28-17.17.25:927][  0]LogD3D11RHI:      Driver Date: 12-10-2018
+[2019.11.28-17.17.25:927][  0]LogRHI: Texture pool is 1456 MB (70% of 2080 MB)
+[2019.11.28-17.17.25:988][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.28-17.17.25:992][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.28-17.17.25:992][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.28-17.17.25:992][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.28-17.17.25:994][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.11.28-17.17.26:370][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.28-17.17.26:385][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.28-17.17.26:400][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.28-17.17.26:415][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.28-17.17.26:431][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.28-17.17.26:446][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.28-17.17.26:462][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.28-17.17.26:484][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.28-17.17.26:492][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.28-17.17.26:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.28-17.17.26:586][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.28-17.17.26:588][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.28-17.17.26:651][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.28-17.17.26:651][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.28-17.17.26:685][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.28-17.17.26:685][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.28-17.17.26:704][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.28-17.17.26:722][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.28-17.17.26:739][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.28-17.17.26:758][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.28-17.17.26:815][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.28-17.17.26:815][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.28-17.17.26:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.28-17.17.26:828][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.28-17.17.26:905][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Intermediate/Shaders/WorkingDirectory/13944/).
+[2019.11.28-17.17.26:905][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/C0D65AB74AB744818F67D4ADF55BB562/'.
+[2019.11.28-17.17.26:909][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.28-17.17.26:909][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.28-17.17.26:909][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.28-17.17.27:653][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-17.17.27:736][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.28-17.17.27:756][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.28-17.17.27:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-17.17.27:756][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.28-17.17.27:769][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.28-17.17.27:769][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.28-17.17.27:769][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.28-17.17.27:810][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.28-17.17.27:813][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.28-17.17.27:814][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.28-17.17.28:143][  0]LogAssetRegistry: FAssetRegistry took 0.0357 seconds to start up
+[2019.11.28-17.17.28:614][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-17.17.28:820][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.28-17.17.28:820][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.28-17.17.28:820][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.28-17.17.28:820][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.28-17.17.28:820][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.28-17.17.28:834][  0]LogNetVersion: BlueprintsAvanzados 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 292716571)
+[2019.11.28-17.17.29:567][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.059614 seconds
+[2019.11.28-17.17.29:579][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.28-17.17.29:579][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.28-17.17.29:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.28-17.17.33:448][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.28-17.17.33:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.28-17.17.33:619][  0]SourceControl: Source control is disabled
+[2019.11.28-17.17.33:619][  0]SourceControl: Source control is disabled
+[2019.11.28-17.17.33:622][  0]SourceControl: Source control is disabled
+[2019.11.28-17.17.33:625][  0]SourceControl: Source control is disabled
+[2019.11.28-17.17.33:765][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.28-17.17.34:034][  0]LogOcInput: OculusInput pre-init called
+[2019.11.28-17.17.34:955][  0]LogEngine: Initializing Engine...
+[2019.11.28-17.17.35:028][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.11.28-17.17.35:029][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.28-17.17.35:304][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.28-17.17.35:328][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.28-17.17.35:592][  0]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-17.17.35:719][  0]LogInit: FAudioDevice initialized.
+[2019.11.28-17.17.35:719][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.28-17.17.35:858][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.28-17.17.35:876][  0]LogInit: Texture streaming: Enabled
+[2019.11.28-17.17.35:918][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.28-17.17.35:969][  0]LogInit: Transaction tracking system initialized
+[2019.11.28-17.17.36:054][  0]BlueprintLog: New page: Editor Load
+[2019.11.28-17.17.36:545][  0]LocalizationService: Localization service is disabled
+[2019.11.28-17.17.36:995][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/' took 0.01s
+[2019.11.28-17.17.36:995][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.28-17.17.36:995][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.28-17.17.37:274][  0]SourceControl: Source control is disabled
+[2019.11.28-17.17.37:274][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.28-17.17.37:275][  0]LightingResults: New page: Lighting Build
+[2019.11.28-17.17.37:280][  0]MapCheck: New page: Map Check
+[2019.11.28-17.17.37:280][  0]LightingResults: New page: Lighting Build
+[2019.11.28-17.17.37:313][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.11.28-17.17.37:423][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.11.28-17.17.37:430][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.28-17.17.37:465][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.28-17.17.37:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.28-17.17.37:465][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,214ms to complete.
+[2019.11.28-17.17.37:465][  0]LogFileHelpers: Loading map 'Template_Default' took 0.190
+[2019.11.28-17.17.37:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.17.37:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.17.37:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.17.37:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.17.37:750][  0]LogCollectionManager: Loaded 0 collections in 0.002965 seconds
+[2019.11.28-17.17.37:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Collections/' took 0.01s
+[2019.11.28-17.17.37:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Developers/danie/Collections/' took 0.01s
+[2019.11.28-17.17.37:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Collections/' took 0.01s
+[2019.11.28-17.17.37:813][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.28-17.17.37:834][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2732 classes and 659 folders.
+[2019.11.28-17.17.37:849][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.28-17.17.37:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:908][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:923][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:930][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:938][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:947][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:955][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:970][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:978][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:986][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.37:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:050][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:058][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.28-17.17.38:319][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.28-17.17.38:332][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.28-17.17.38:399][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.28-17.17.38:404][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.28-17.17.38:426][  0]LogSlate: Took 0.009600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.28-17.17.38:646][  0]LogRenderer: Reallocating scene render targets to support 908x436 Format 10 NumSamples 1 (Frame:1).
+[2019.11.28-17.17.39:343][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.28-17.17.39:343][  0]LogLoad: (Engine Initialization) Total time: 17.45 seconds
+[2019.11.28-17.17.39:343][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.28-17.17.39:448][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.28-17.17.42:757][ 99]LogAssetRegistry: Asset discovery search completed in 14.6365 seconds
+[2019.11.28-17.17.42:764][ 99]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.28-17.17.42:765][ 99]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000157 seconds (updated 0 objects)
+[2019.11.28-17.19.19:741][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-17.19.22:365][671]LogSlate: Took 0.008199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.28-17.21.50:223][906]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.28-17.22.41:078][414]LogSlate: Window 'Class Viewer' being destroyed
+[2019.11.28-17.22.41:093][414]LogSlate: Window 'Class Viewer' being destroyed
+[2019.11.28-17.23.15:749][846]LogSlate: Window 'Class Viewer' being destroyed
+[2019.11.28-17.26.30:485][146]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.28-17.27.21:122][151]LogSlate: Window 'Save Level As' being destroyed
+[2019.11.28-17.27.46:703][120]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2019.11.28-17.27.46:706][120]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.061
+[2019.11.28-17.27.46:713][120]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_SokobanPlayer] ([1] browsable assets)...
+[2019.11.28-17.27.46:713][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SokobanPlayer]
+[2019.11.28-17.27.46:832][120]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer_Auto1FF93772441B85697085279947DC5FDCE.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Game/Blueprints/BP_SokobanPlayer_Auto1.uasset'
+[2019.11.28-17.27.46:842][120]LogFileHelpers: Auto-saving content packages took 0.135
+[2019.11.28-17.31.24:936][316]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_SokobanPlayer.BP_SokobanPlayer
+[2019.11.28-17.31.25:672][316]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
+[2019.11.28-17.31.26:856][317]LogRenderer: Reallocating scene render targets to support 908x460 Format 10 NumSamples 1 (Frame:1).
+[2019.11.28-17.32.31:858][709]LogRenderer: Reallocating scene render targets to support 912x540 Format 10 NumSamples 1 (Frame:1252).
+[2019.11.28-17.32.53:914][156]LogSlate: Took 0.019979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.28-17.33.24:012][790]LogSlate: Took 0.011315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.28-17.33.30:589][949]LogSlate: Took 0.014033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.28-17.33.37:715][171]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.33.38:162][171]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.11.28-17.33.39:150][202]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer7272AAA446A981FADDFCCB99D925B90E.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-17.36.01:431][182]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.36.01:729][182]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2019.11.28-17.37.47:082][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.37.47:215][334]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2019.11.28-17.37.47:215][334]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.049
+[2019.11.28-17.37.47:217][334]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_SokobanPlayer] ([1] browsable assets)...
+[2019.11.28-17.37.47:271][334]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_SokobanPlayer.BP_SokobanPlayer]
+[2019.11.28-17.37.47:271][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SokobanPlayer]
+[2019.11.28-17.37.47:328][334]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer_Auto219D8B3744CC77D5E323128BF3045B9F7.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Game/Blueprints/BP_SokobanPlayer_Auto2.uasset'
+[2019.11.28-17.37.47:330][334]LogFileHelpers: Auto-saving content packages took 0.113
+[2019.11.28-17.41.22:000][714]Cmd: TRANSACTION UNDO
+[2019.11.28-17.41.22:000][714]LogEditorTransaction: Undo Add New Function
+[2019.11.28-17.41.50:881][631]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer2C1827B04DE3F79F86E8C8969DA6243D.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-17.41.56:232][849]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.11.28-17.41.57:586][849]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.28-17.43.32:185][773]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-17.43.32:224][773]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-17.44.01:984][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.47.30:042][630]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled
+[2019.11.28-17.47.54:827][328]LogUObjectHash: Compacting FUObjectHashTables data took  10.98ms
+[2019.11.28-17.47.54:942][328]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Untitled_1_Auto3CCBBD8EC43EFF5E69FA1549FB07CB8AE.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2019.11.28-17.47.54:957][328]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.265
+[2019.11.28-17.47.54:957][328]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.265
+[2019.11.28-17.54.06:166][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.28-17.54.07:867][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-17.54.30:103][728]LogSlate: Window 'Save Level As' being destroyed
+[2019.11.28-17.54.30:384][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.28-17.54.30:436][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.28-17.54.30:644][728]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundC2AE2E8C40112EAD03AD65AD8F2737C3.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-17.54.30:691][728]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround_BuiltDataE1D90FCB49CADA9075B9FBBC2141D986.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround_BuiltData.uasset'
+[2019.11.28-17.54.30:705][728]LogFileHelpers: Saving map 'DevPlayGround' took 0.588
+[2019.11.28-17.54.30:707][728]Cmd: MAP LOAD FILE="../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.28-17.54.30:716][728]LightingResults: New page: Lighting Build
+[2019.11.28-17.54.30:718][728]LoadErrors: New page: Loading map: DevPlayGround.umap
+[2019.11.28-17.54.30:776][728]MapCheck: New page: Map Check
+[2019.11.28-17.54.30:776][728]LightingResults: New page: Lighting Build
+[2019.11.28-17.54.30:829][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.28-17.54.30:855][728]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-17.54.30:867][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.28-17.54.30:909][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.28-17.54.30:981][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.28-17.54.30:981][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,268ms to complete.
+[2019.11.28-17.54.30:981][728]LogFileHelpers: Loading map 'DevPlayGround' took 0.276
+[2019.11.28-17.55.34:397][ 55]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.55.34:766][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2019.11.28-17.55.35:445][ 65]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayerC9B2DD7146F929759C6427AEB072ECB1.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-17.55.39:126][132]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.55.39:516][132]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2019.11.28-17.55.52:561][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:561][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:564][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:564][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:565][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:565][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:567][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:567][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:567][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:567][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:568][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:568][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:606][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:606][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:609][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:609][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.52:611][229]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.52:611][229]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:108][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:108][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:109][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:109][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:110][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:110][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:112][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:112][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:114][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:114][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:115][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:115][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:156][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:156][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:157][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:157][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.53:158][235]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.53:158][235]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:159][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:159][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:161][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:162][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:163][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:163][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:165][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:165][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:165][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:165][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:166][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:166][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:207][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:207][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:209][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:209][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.55.54:210][247]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.28-17.55.54:210][247]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.11.28-17.57.32:524][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.57.33:436][611]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer6D7E14F449632D87EFEBA2B149709068.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-17.57.34:355][629]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.57.34:757][629]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2019.11.28-17.57.34:771][629]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-17.57.35:069][629]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.11.28-17.57.44:133][776]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.28-17.57.54:197][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2019.11.28-17.57.54:199][ 72]LogMetaData: Removing '/Game/Blueprints/BP_SokobanLogic.BP_SokobanLogic:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.11.28-17.57.54:199][ 72]LogMetaData: Removing '/Game/Blueprints/BP_SokobanLogic.SKEL_BP_SokobanLogic_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.11.28-17.57.54:199][ 72]LogMetaData: Removing '/Game/Blueprints/BP_SokobanLogic.BP_SokobanLogic_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.11.28-17.57.54:199][ 72]LogMetaData: Removing '/Game/Blueprints/BP_SokobanLogic.BP_SokobanLogic:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.11.28-17.57.54:199][ 72]LogMetaData: Removing '/Game/Blueprints/BP_SokobanLogic.BP_SokobanLogic:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.11.28-17.57.54:275][ 72]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanLogicEF86B9414151A6A0AFFE91B882130630.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanLogic.uasset'
+[2019.11.28-17.57.54:601][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.11.28-17.57.54:659][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.28-17.57.54:706][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.11.28-17.58.03:737][159]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanLogic25C4BE644449DB728B6E10934767FB52.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanLogic.uasset'
+[2019.11.28-17.58.08:088][295]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.28-17.58.12:410][427]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.28-17.58.24:233][924]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-17.58.24:257][924]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-17.58.25:914][990]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.11.28-17.58.26:212][990]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround4DA4B3914082C45CCFAFA286E733D506.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-17.58.26:282][990]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround_BuiltData33BF4AC34BFB6A6D540E1C90556F5D81.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround_BuiltData.uasset'
+[2019.11.28-17.58.28:617][116]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-17.58.28:648][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.28:650][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-17.58.28:651][116]PIE: New page: PIE session: DevPlayGround (28/11/2019 19:58:28)
+[2019.11.28-17.58.28:674][116]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-17.58.28:679][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004802s)
+[2019.11.28-17.58.28:680][116]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-17.58.28:681][116]LogPlayLevel: PIE: World Init took: (0.002074s)
+[2019.11.28-17.58.28:682][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.007523s)
+[2019.11.28-17.58.28:736][116]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.28-17.58.28:789][116]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-17.58.28:803][116]LogInit: FAudioDevice initialized.
+[2019.11.28-17.58.28:854][116]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-17.58.28:864][116]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-18.58.28
+[2019.11.28-17.58.28:866][116]LogWorld: Bringing up level for play took: 0.002722
+[2019.11.28-17.58.28:896][116]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.28-17.58.28:905][116]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.28-17.58.28:906][116]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.11.28-17.58.28:912][116]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 1,034
+[2019.11.28-17.58.28:912][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.33:045][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.33:047][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.58.33:101][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-17.58.33:101][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.33:185][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.58.33:250][276]LogUObjectHash: Compacting FUObjectHashTables data took  10.69ms
+[2019.11.28-17.58.33:291][277]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.11.28-17.58.34:354][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-17.58.34:433][319]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-17.58.34:478][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.34:478][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-17.58.34:479][319]PIE: New page: PIE session: DevPlayGround (28/11/2019 19:58:34)
+[2019.11.28-17.58.34:479][319]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-17.58.34:488][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009271s)
+[2019.11.28-17.58.34:489][319]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-17.58.34:491][319]LogPlayLevel: PIE: World Init took: (0.002581s)
+[2019.11.28-17.58.34:491][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.012475s)
+[2019.11.28-17.58.34:598][319]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2019.11.28-17.58.34:668][319]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-17.58.34:685][319]LogInit: FAudioDevice initialized.
+[2019.11.28-17.58.34:721][319]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-17.58.34:723][319]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-18.58.34
+[2019.11.28-17.58.34:724][319]LogWorld: Bringing up level for play took: 0.000988
+[2019.11.28-17.58.34:739][319]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,861
+[2019.11.28-17.58.34:739][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.58.37:020][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.39:892][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.42:321][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.44:335][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.48:145][885]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.53:902][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.58.56:555][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-17.59.02:768][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.59.02:768][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.59.02:822][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-17.59.02:823][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-17.59.02:897][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-17.59.02:905][511]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.11.28-17.59.02:940][512]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.28-17.59.22:000][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.03.29:879][628]LogEditorTransaction: Undo Create Pin Link
+[2019.11.28-18.05.35:352][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayerAF12DE1542EEBA410286AF842924A7AF.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-18.05.35:760][808]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-18.05.36:179][808]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2019.11.28-18.06.19:094][113]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.28-18.06.26:045][274]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_SokobanCamera.BP_SokobanCamera
+[2019.11.28-18.08.06:484][351]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera831C5EF448966CC022483398F8EFEC7E.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.08.08:330][405]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.08.08:846][405]LogUObjectHash: Compacting FUObjectHashTables data took   8.86ms
+[2019.11.28-18.09.44:878][752]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2019.11.28-18.09.44:878][752]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DevPlayGround' took 0.082
+[2019.11.28-18.09.44:880][752]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_SokobanLogic] ([1] browsable assets)...
+[2019.11.28-18.09.44:880][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SokobanLogic]
+[2019.11.28-18.09.44:930][752]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanLogic_Auto4BE7F2D5F40253C243A8320884CDBCAF2.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Game/Blueprints/BP_SokobanLogic_Auto4.uasset'
+[2019.11.28-18.09.44:932][752]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_SokobanCamera] ([1] browsable assets)...
+[2019.11.28-18.09.44:932][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SokobanCamera]
+[2019.11.28-18.09.44:982][752]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera_Auto4D9DAC9B84AC12E240CF43C93A13363A0.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Game/Blueprints/BP_SokobanCamera_Auto4.uasset'
+[2019.11.28-18.09.44:985][752]LogFileHelpers: Auto-saving content packages took 0.105
+[2019.11.28-18.16.15:270][648]Cmd: TRANSACTION UNDO
+[2019.11.28-18.16.15:270][648]LogEditorTransaction: Undo Add New Function
+[2019.11.28-18.16.29:087][ 48]Cmd: TRANSACTION UNDO
+[2019.11.28-18.16.29:087][ 48]LogEditorTransaction: Undo Add In Parameter
+[2019.11.28-18.16.57:730][875]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::GetTransform' [No se ha encontrado el elemento.]
+[2019.11.28-18.17.59:501][618]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.17.59:927][618]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
+[2019.11.28-18.18.00:473][631]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera64F01D1F489DE63E809D5988347A325A.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.18.22:288][254]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera6A501CA5447C4D5C6AAC50B5850F2731.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.18.23:145][280]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.18.23:549][280]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2019.11.28-18.18.40:827][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-18.19.09:780][931]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera0A8F62EE4FFD71C92E097D9EC8396476.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.19.11:290][966]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2019.11.28-18.19.11:700][966]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround0AF6CA9040998BB25573D0B3295D4A95.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.19.11:780][966]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround_BuiltData27EF3021477BACBD3502AF82812FC120.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround_BuiltData.uasset'
+[2019.11.28-18.19.38:033][365]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround
+[2019.11.28-18.21.10:239][131]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2019.11.28-18.21.10:622][131]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundD11254334AF281CA48BE9C8116AFF718.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.21.10:664][131]LogFileHelpers: Saving map 'DevPlayGround' took 0.522
+[2019.11.28-18.21.32:110][330]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.21.32:155][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.32:156][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.21.32:156][330]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:21:32)
+[2019.11.28-18.21.32:156][330]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.21.32:166][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008711s)
+[2019.11.28-18.21.32:167][330]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.21.32:168][330]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2019.11.28-18.21.32:168][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.011354s)
+[2019.11.28-18.21.32:247][330]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2019.11.28-18.21.32:326][330]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.21.32:343][330]LogInit: FAudioDevice initialized.
+[2019.11.28-18.21.32:381][330]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.21.32:383][330]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.21.32
+[2019.11.28-18.21.32:383][330]LogWorld: Bringing up level for play took: 0.001018
+[2019.11.28-18.21.32:410][330]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,533
+[2019.11.28-18.21.32:410][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.34:618][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.34:618][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.34:679][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.21.34:680][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.34:755][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.34:765][413]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2019.11.28-18.21.34:787][414]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.28-18.21.36:648][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.21.36:710][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.36:710][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.21.36:710][477]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:21:36)
+[2019.11.28-18.21.36:710][477]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.21.36:721][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010833s)
+[2019.11.28-18.21.36:723][477]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.21.36:723][477]LogPlayLevel: PIE: World Init took: (0.001645s)
+[2019.11.28-18.21.36:723][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.012911s)
+[2019.11.28-18.21.36:815][477]LogUObjectHash: Compacting FUObjectHashTables data took   7.50ms
+[2019.11.28-18.21.36:932][477]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.21.36:954][477]LogInit: FAudioDevice initialized.
+[2019.11.28-18.21.36:992][477]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.21.36:994][477]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.21.36
+[2019.11.28-18.21.36:995][477]LogWorld: Bringing up level for play took: 0.001786
+[2019.11.28-18.21.37:012][477]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 1,134
+[2019.11.28-18.21.37:012][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.38:714][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.38:715][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.38:777][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.21.38:777][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.38:883][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.38:897][537]LogUObjectHash: Compacting FUObjectHashTables data took   6.91ms
+[2019.11.28-18.21.38:942][538]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.28-18.21.47:131][777]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.21.47:169][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.47:169][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.21.47:169][777]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:21:47)
+[2019.11.28-18.21.47:169][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.21.47:178][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008197s)
+[2019.11.28-18.21.47:179][777]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.21.47:179][777]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2019.11.28-18.21.47:179][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.009870s)
+[2019.11.28-18.21.47:245][777]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2019.11.28-18.21.47:318][777]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.21.47:335][777]LogInit: FAudioDevice initialized.
+[2019.11.28-18.21.47:370][777]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.21.47:372][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.21.47
+[2019.11.28-18.21.47:373][777]LogWorld: Bringing up level for play took: 0.000921
+[2019.11.28-18.21.47:387][777]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround -0,491
+[2019.11.28-18.21.47:387][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.55:551][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.55:585][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.55:622][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.21.55:622][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.21.55:691][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.21.55:699][107]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.11.28-18.21.55:733][108]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.28-18.22.03:297][385]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.28-18.22.15:567][780]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-18.22.15:598][780]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-18.22.25:645][ 44]LogSlate: Window 'Save Level As' being destroyed
+[2019.11.28-18.22.28:084][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.11.28-18.22.28:379][157]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround37505222490736254221DEBBEFE41629.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.22.28:432][157]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround_BuiltDataE78166644450727E45CE21BB33CCB73F.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround_BuiltData.uasset'
+[2019.11.28-18.22.30:733][220]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.22.30:764][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.30:764][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.22.30:764][220]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:22:30)
+[2019.11.28-18.22.30:764][220]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.22.30:769][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004662s)
+[2019.11.28-18.22.30:770][220]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.22.30:770][220]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2019.11.28-18.22.30:770][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.005830s)
+[2019.11.28-18.22.30:848][220]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2019.11.28-18.22.30:919][220]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.22.30:939][220]LogInit: FAudioDevice initialized.
+[2019.11.28-18.22.30:972][220]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.22.30:974][220]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.22.30
+[2019.11.28-18.22.30:974][220]LogWorld: Bringing up level for play took: 0.000875
+[2019.11.28-18.22.30:989][220]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 1,112
+[2019.11.28-18.22.30:990][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.32:827][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.32:828][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.22.32:872][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.22.32:873][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.32:953][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.22.32:963][294]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.11.28-18.22.32:998][295]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.28-18.22.35:097][371]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.22.35:136][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.35:137][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.22.35:137][371]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:22:35)
+[2019.11.28-18.22.35:137][371]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.22.35:142][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004609s)
+[2019.11.28-18.22.35:142][371]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.22.35:143][371]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2019.11.28-18.22.35:143][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.005797s)
+[2019.11.28-18.22.35:216][371]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.11.28-18.22.35:285][371]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.22.35:298][371]LogInit: FAudioDevice initialized.
+[2019.11.28-18.22.35:336][371]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.22.35:338][371]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.22.35
+[2019.11.28-18.22.35:338][371]LogWorld: Bringing up level for play took: 0.000989
+[2019.11.28-18.22.35:353][371]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround -0,525
+[2019.11.28-18.22.35:354][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.43:984][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.43:984][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.22.44:052][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.22.44:052][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.22.44:118][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.22.44:128][742]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2019.11.28-18.22.44:174][743]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.11.28-18.22.45:661][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-18.25.02:976][701]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera9ABC6006442368DC2B497DAC53D2C472.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.25.03:290][710]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.25.03:688][710]LogUObjectHash: Compacting FUObjectHashTables data took   8.31ms
+[2019.11.28-18.25.07:356][810]LogUObjectHash: Compacting FUObjectHashTables data took   8.04ms
+[2019.11.28-18.25.07:730][810]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundC977035B46FB0F08C3257B99244DB75B.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.25.07:772][810]LogFileHelpers: Saving map 'DevPlayGround' took 0.497
+[2019.11.28-18.25.45:857][841]LogUObjectHash: Compacting FUObjectHashTables data took   9.06ms
+[2019.11.28-18.25.45:872][841]LogBlueprint: Error: [Compiler PersistentLevel.DevPlayGround] This blueprint (self) is not a BP_SokobanCamera_C, therefore ' Target ' must have a connection.
+[2019.11.28-18.25.45:874][841]LogBlueprint: Warning: [Compiler PersistentLevel.DevPlayGround] [4103,99] Compile of PersistentLevel.DevPlayGround failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms] (/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround)
+[2019.11.28-18.25.46:362][841]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundB32C90A94A8D7791FC103C9B5CD19AE7.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.25.46:410][841]LogFileHelpers: Saving map 'DevPlayGround' took 0.646
+[2019.11.28-18.25.46:817][853]BlueprintLog: New page: Compile DevPlayGround
+[2019.11.28-18.25.46:820][853]LogBlueprint: Error: [Compiler PersistentLevel.DevPlayGround] This blueprint (self) is not a BP_SokobanCamera_C, therefore ' Target ' must have a connection.
+[2019.11.28-18.25.47:207][853]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2019.11.28-18.25.47:213][853]LogBlueprint: Warning: [Compiler PersistentLevel.DevPlayGround] [4105,32] Compile of PersistentLevel.DevPlayGround failed. 1 Fatal Issue(s) 0 Warning(s) [in 396 ms] (/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround)
+[2019.11.28-18.25.51:598][978]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2019.11.28-18.25.51:987][978]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround101D379B4AB2623E83F0F898D00C403B.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.25.52:027][978]LogFileHelpers: Saving map 'DevPlayGround' took 0.521
+[2019.11.28-18.25.52:358][989]BlueprintLog: New page: Compile DevPlayGround
+[2019.11.28-18.25.52:734][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2019.11.28-18.25.54:353][ 35]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera7400CC2C4C104EC891FACB8356CDD4DD.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.25.54:700][ 45]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.25.55:128][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.11.28-18.25.56:649][ 79]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanPlayer842ADD3B4A905B4878A6A79CB97FC365.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanPlayer.uasset'
+[2019.11.28-18.25.56:998][ 87]BlueprintLog: New page: Compile BP_SokobanPlayer
+[2019.11.28-18.25.57:388][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2019.11.28-18.26.00:344][171]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.26.00:398][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.26.00:398][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.26.00:398][171]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:26:00)
+[2019.11.28-18.26.00:398][171]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.26.00:404][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005497s)
+[2019.11.28-18.26.00:405][171]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.26.00:405][171]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2019.11.28-18.26.00:405][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.007151s)
+[2019.11.28-18.26.00:472][171]LogUObjectHash: Compacting FUObjectHashTables data took   7.76ms
+[2019.11.28-18.26.00:549][171]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.26.00:567][171]LogInit: FAudioDevice initialized.
+[2019.11.28-18.26.00:606][171]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.26.00:608][171]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.26.00
+[2019.11.28-18.26.00:608][171]LogWorld: Bringing up level for play took: 0.000976
+[2019.11.28-18.26.00:623][171]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,745
+[2019.11.28-18.26.00:623][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.26.02:536][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.26.02:536][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.26.02:584][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.26.02:584][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.26.02:669][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.26.02:682][247]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.11.28-18.26.02:712][248]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.28-18.26.06:359][360]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.28-18.27.16:870][727]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-18.27.16:884][727]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.28-18.27.17:494][747]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.27.17:533][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.27.17:533][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.27.17:533][747]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:27:17)
+[2019.11.28-18.27.17:533][747]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.27.17:539][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004982s)
+[2019.11.28-18.27.17:540][747]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.27.17:540][747]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2019.11.28-18.27.17:540][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.006702s)
+[2019.11.28-18.27.17:622][747]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.11.28-18.27.17:689][747]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.27.17:706][747]LogInit: FAudioDevice initialized.
+[2019.11.28-18.27.17:739][747]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.27.17:741][747]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.27.17
+[2019.11.28-18.27.17:741][747]LogWorld: Bringing up level for play took: 0.001029
+[2019.11.28-18.27.17:756][747]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround -0,121
+[2019.11.28-18.27.17:757][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.27.33:452][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.27.33:453][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.27.33:503][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.27.33:504][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.27.33:582][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.27.33:590][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.11.28-18.27.33:627][382]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.11.28-18.27.59:751][649]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_SokobanLogic.BP_SokobanLogic
+[2019.11.28-18.36.09:983][252]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2019.11.28-18.36.10:343][252]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround_Auto5EF58658B47C23FDA74DDEE871AC5C652.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/Autosaves/Game/Levels/DevPlayGround_Auto5.umap'
+[2019.11.28-18.36.10:354][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DevPlayGround' took 0.461
+[2019.11.28-18.36.10:354][252]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.461
+[2019.11.28-18.48.42:037][914]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera0B3A06F24DD5D6E0227359A402E609B3.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.48.42:801][932]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.48.43:376][932]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2019.11.28-18.48.44:591][955]LogUObjectHash: Compacting FUObjectHashTables data took   8.98ms
+[2019.11.28-18.48.45:017][955]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround4AA237984C1E8B2477E176A0387DA9B4.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.48.45:060][955]LogFileHelpers: Saving map 'DevPlayGround' took 0.569
+[2019.11.28-18.50.17:364][267]BlueprintLog: New page: Compile DevPlayGround
+[2019.11.28-18.50.17:789][267]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2019.11.28-18.50.18:347][278]LogUObjectHash: Compacting FUObjectHashTables data took   7.82ms
+[2019.11.28-18.50.18:755][278]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundDE98890F4CB7E696AB6122AE41164093.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.50.18:791][278]LogFileHelpers: Saving map 'DevPlayGround' took 0.533
+[2019.11.28-18.50.20:290][309]BlueprintLog: New page: Compile BP_SokobanLogic
+[2019.11.28-18.50.20:754][309]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2019.11.28-18.50.21:382][319]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanLogicA09C859046953C5728526EB7DB6145F8.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanLogic.uasset'
+[2019.11.28-18.50.24:185][374]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.50.24:237][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.50.24:237][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.50.24:237][374]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:50:24)
+[2019.11.28-18.50.24:238][374]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.50.24:249][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011165s)
+[2019.11.28-18.50.24:250][374]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.50.24:250][374]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2019.11.28-18.50.24:251][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.012984s)
+[2019.11.28-18.50.24:342][374]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2019.11.28-18.50.24:424][374]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.50.24:441][374]LogInit: FAudioDevice initialized.
+[2019.11.28-18.50.24:476][374]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.50.24:478][374]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.50.24
+[2019.11.28-18.50.24:478][374]LogWorld: Bringing up level for play took: 0.001033
+[2019.11.28-18.50.24:493][374]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,615
+[2019.11.28-18.50.24:493][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.50.38:463][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.50.38:463][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.50.38:529][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.50.38:530][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.50.38:618][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.50.38:629][991]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2019.11.28-18.50.38:676][992]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.28-18.51.01:671][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.52.35:999][669]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.52.36:456][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2019.11.28-18.52.40:412][777]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera66281E4E447E801471CDFBA86B2B0B22.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.52.41:279][801]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.52.41:713][801]LogUObjectHash: Compacting FUObjectHashTables data took   9.36ms
+[2019.11.28-18.52.44:955][888]LogUObjectHash: Compacting FUObjectHashTables data took   8.27ms
+[2019.11.28-18.52.45:386][888]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGroundB969A5CB4255ADBAE2D70BBE853284D0.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.52.45:429][888]LogFileHelpers: Saving map 'DevPlayGround' took 0.571
+[2019.11.28-18.52.47:936][953]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.52.48:010][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.52.48:010][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.52.48:011][953]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:52:48)
+[2019.11.28-18.52.48:011][953]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.52.48:018][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007120s)
+[2019.11.28-18.52.48:019][953]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.52.48:020][953]LogPlayLevel: PIE: World Init took: (0.001520s)
+[2019.11.28-18.52.48:020][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.008995s)
+[2019.11.28-18.52.48:109][953]LogUObjectHash: Compacting FUObjectHashTables data took   9.60ms
+[2019.11.28-18.52.48:181][953]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.52.48:199][953]LogInit: FAudioDevice initialized.
+[2019.11.28-18.52.48:242][953]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.52.48:245][953]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.52.48
+[2019.11.28-18.52.48:245][953]LogWorld: Bringing up level for play took: 0.001092
+[2019.11.28-18.52.48:261][953]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,383
+[2019.11.28-18.52.48:261][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.52.52:630][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.52.52:631][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.52.52:692][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.52.52:693][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.52.52:786][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.52.52:796][139]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.11.28-18.52.52:842][140]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.28-18.52.53:293][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.53.03:369][403]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCameraD57C573249C8D1398A4FBBAFB07F328B.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.53.03:723][412]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.53.04:154][412]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2019.11.28-18.53.06:233][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.53.06:304][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.06:305][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.53.06:305][477]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:53:06)
+[2019.11.28-18.53.06:305][477]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.53.06:311][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005587s)
+[2019.11.28-18.53.06:311][477]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.53.06:312][477]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2019.11.28-18.53.06:312][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.006766s)
+[2019.11.28-18.53.06:388][477]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2019.11.28-18.53.06:469][477]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.53.06:483][477]LogInit: FAudioDevice initialized.
+[2019.11.28-18.53.06:519][477]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.53.06:521][477]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.53.06
+[2019.11.28-18.53.06:522][477]LogWorld: Bringing up level for play took: 0.000980
+[2019.11.28-18.53.06:538][477]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,66
+[2019.11.28-18.53.06:538][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.12:700][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.12:701][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.53.12:776][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.53.12:776][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.12:866][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.53.12:876][740]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.11.28-18.53.12:922][741]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.28-18.53.14:269][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.53.34:196][315]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera5377F102487A219BE12D63B294D3F93E.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.53.34:574][327]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.53.35:012][327]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.11.28-18.53.37:555][402]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.53.37:637][402]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.37:637][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.53.37:638][402]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:53:37)
+[2019.11.28-18.53.37:638][402]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.53.37:646][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007551s)
+[2019.11.28-18.53.37:647][402]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.53.37:647][402]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2019.11.28-18.53.37:647][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.009440s)
+[2019.11.28-18.53.37:734][402]LogUObjectHash: Compacting FUObjectHashTables data took   8.39ms
+[2019.11.28-18.53.37:812][402]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.53.37:829][402]LogInit: FAudioDevice initialized.
+[2019.11.28-18.53.37:864][402]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.53.37:867][402]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.53.37
+[2019.11.28-18.53.37:867][402]LogWorld: Bringing up level for play took: 0.001523
+[2019.11.28-18.53.37:882][402]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,005
+[2019.11.28-18.53.37:883][402]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.46:635][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.46:635][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.53.46:681][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.53.46:682][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.53.46:753][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.53.46:762][782]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2019.11.28-18.53.46:803][783]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.28-18.54.01:839][875]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.54.22:117][394]LogEditorTransaction: Undo Add Node
+[2019.11.28-18.55.10:190][706]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera18E121014F09854C5D148CB1A0D17DC2.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.55.10:445][712]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.55.10:857][712]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2019.11.28-18.55.22:749][ 44]BlueprintLog: New page: Compile BP_SokobanCamera
+[2019.11.28-18.55.23:175][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   8.39ms
+[2019.11.28-18.55.23:783][ 57]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/BP_SokobanCamera43A2D3F6429407435E003FA762B18155.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Blueprints/BP_SokobanCamera.uasset'
+[2019.11.28-18.55.25:656][112]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.28-18.55.25:740][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.55.25:740][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-18.55.25:740][112]PIE: New page: PIE session: DevPlayGround (28/11/2019 20:55:25)
+[2019.11.28-18.55.25:741][112]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevPlayGround
+[2019.11.28-18.55.25:748][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006960s)
+[2019.11.28-18.55.25:749][112]LogAIModule: Creating AISystem for world DevPlayGround
+[2019.11.28-18.55.25:749][112]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2019.11.28-18.55.25:749][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevPlayGround.DevPlayGround to /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround (0.008528s)
+[2019.11.28-18.55.25:835][112]LogUObjectHash: Compacting FUObjectHashTables data took   8.96ms
+[2019.11.28-18.55.25:904][112]LogInit: XAudio2 using 'Altavoz (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.55.25:920][112]LogInit: FAudioDevice initialized.
+[2019.11.28-18.55.25:960][112]LogLoad: Game class is 'BP_SokobanLogic_C'
+[2019.11.28-18.55.25:963][112]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevPlayGround.DevPlayGround up for play (max tick rate 60) at 2019.11.28-19.55.25
+[2019.11.28-18.55.25:963][112]LogWorld: Bringing up level for play took: 0.001248
+[2019.11.28-18.55.25:977][112]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevPlayGround 0,1
+[2019.11.28-18.55.25:978][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.55.40:693][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.55.40:694][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.55.40:755][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-18.55.40:756][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround' with GeneratedClass '/Game/Levels/DevPlayGround.DevPlayGround_C' with ClassGeneratedBy '/Game/Levels/DevPlayGround.DevPlayGround:PersistentLevel.DevPlayGround'
+[2019.11.28-18.55.40:852][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.55.40:861][745]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2019.11.28-18.55.40:914][746]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.28-18.56.22:290][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.28-18.56.31:375][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.28-18.56.31:776][103]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Saved/DevPlayGround77AAFF574CC519CC5A07728863CB6E36.tmp' to '../../../../../../Users/danie/OneDrive/Documentos/Unreal Projects/BlueprintsAvanzados/Content/Levels/DevPlayGround.umap'
+[2019.11.28-18.56.31:811][103]LogFileHelpers: Saving map 'DevPlayGround' took 0.516

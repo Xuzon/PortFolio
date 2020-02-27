@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ogro_invasion">
+</Property><Property Name="Archivo de la solución" Value="C:\OpenGL 3.0\chapter_13\ogro_invasion\vc++\ogro_invasion.sln">
+</Property><Property Name="Date" Value="martes, 13 de diciembre de 2016">
+</Property><Property Name="Time" Value="12:07:09">
+</Property></Properties><Event ErrorLevel="0" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="Converting project file 'C:\OpenGL 3.0\chapter_13\ogro_invasion\vc++\ogro_invasion.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="VCConvertEngine could not convert attribute EnableIntristicFunctions = true under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="MSB8012: $(TargetPath) ('C:\OpenGL 3.0\chapter_13\ogro_invasion\vc++\Debug\ogro_invasion.exe') does not match the Linker's OutputFile property value '..\ogro_invasion.exe' ('C:\OpenGL 3.0\chapter_13\ogro_invasion\ogro_invasion.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="MSB8012: $(TargetPath) ('C:\OpenGL 3.0\chapter_13\ogro_invasion\vc++\Release\ogro_invasion.exe') does not match the Linker's OutputFile property value '..\ogro_invasion.exe' ('C:\OpenGL 3.0\chapter_13\ogro_invasion\ogro_invasion.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="Done converting to new project file 'C:\OpenGL 3.0\chapter_13\ogro_invasion\vc++\ogro_invasion.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ogro_invasion" Source="ogro_invasion.vcproj" Description="Converted">
+</Event></UpgradeLog>

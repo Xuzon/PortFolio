@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\BasicPhysics\Ball.cpp" />
+    <ClCompile Include="..\BasicPhysics\DemoApp.cpp" />
+    <ClCompile Include="..\BasicPhysics\main.cpp" />
+    <ClCompile Include="..\BasicPhysics\Map.cpp" />
+    <ClCompile Include="..\BasicPhysics\Physics.cpp" />
+    <ClCompile Include="..\BasicPhysics\raw_mouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BasicPhysics\Ball.h" />
+    <ClInclude Include="..\BasicPhysics\DemoApp.h" />
+    <ClInclude Include="..\BasicPhysics\Map.h" />
+    <ClInclude Include="..\BasicPhysics\Physics.h" />
+    <ClInclude Include="..\BasicPhysics\raw_mouse.h" />
+  </ItemGroup>
+</Project>

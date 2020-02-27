@@ -1,0 +1,3 @@
+C:/Data/UCM/Arquitectura de Software/Codigo/CMake/builds/CMakeFiles/HolaMundo.dir
+C:/Data/UCM/Arquitectura de Software/Codigo/CMake/builds/CMakeFiles/ALL_BUILD.dir
+C:/Data/UCM/Arquitectura de Software/Codigo/CMake/builds/CMakeFiles/ZERO_CHECK.dir

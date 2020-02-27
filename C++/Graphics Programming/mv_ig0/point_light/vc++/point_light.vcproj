@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<VisualStudioProject Name="point_light" ProjectGUID="1058b41e-19e1-11de-8bd3-11ab3ebb43c2" ProjectType="Visual C++" RootNamespace="point_light" TargetFrameworkVersion="1996613" Version="9.00">
+    <Platforms>
+        <Platform Name="Win32"/>
+    </Platforms>
+    <ToolFiles/>
+    <Configurations>
+        <Configuration ATLMinimizesCRunTimeLibraryUsage="FALSE" CharacterSet="2" ConfigurationType="1" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)" UseOfMFC="0">
+            <Tool BasicRuntimeChecks="3" DebugInformationFormat="4" MinimalRebuild="true" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="WIN32" RuntimeLibrary="3" WarningLevel="3"/>
+            <Tool Name="VCManagedResourceCompilerTool"/>
+            <Tool Name="VCResourceCompilerTool"/>
+            <Tool Name="VCPreLinkEventTool"/>
+            <Tool AdditionalDependencies="opengl32.lib glu32.lib" GenerateDebugInformation="true" Name="VCLinkerTool" OutputFile="..\$(ProjectName).exe" TargetMachine="1"/>
+            <Tool Name="VCALinkTool"/>
+            <Tool Name="VCManifestTool"/>
+            <Tool Name="VCXDCMakeTool"/>
+            <Tool Name="VCBscMakeTool"/>
+            <Tool Name="VCFxCopTool"/>
+            <Tool Name="VCAppVerifierTool"/>
+            <Tool Name="VCPostBuildEventTool"/>
+        </Configuration>
+        <Configuration CharacterSet="2" ConfigurationType="1" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)" WholeProgramOptimization="1">
+            <Tool DebugInformationFormat="3" EnableIntristicFunctions="true" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="WIN32" RuntimeLibrary="2" WarningLevel="3"/>
+            <Tool Name="VCManagedResourceCompilerTool"/>
+            <Tool Name="VCResourceCompilerTool"/>
+            <Tool Name="VCPreLinkEventTool"/>
+            <Tool AdditionalDependencies="opengl32.lib glu32.lib" EnableCOMDATFolding="2" GenerateDebugInformation="false" Name="VCLinkerTool" OptimizeReferences="2" OutputFile="..\$(ProjectName).exe" TargetMachine="1"/>
+            <Tool Name="VCALinkTool"/>
+            <Tool Name="VCManifestTool"/>
+            <Tool Name="VCXDCMakeTool"/>
+            <Tool Name="VCBscMakeTool"/>
+            <Tool Name="VCFxCopTool"/>
+            <Tool Name="VCAppVerifierTool"/>
+            <Tool Name="VCPostBuildEventTool"/>
+        </Configuration>
+    </Configurations>
+    <References/>
+    <Files>
+        <Filter Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="1058b41f-19e1-11de-8bd3-11ab3ebb43c2">
+            <File RelativePath="..\src\example.cpp"/>
+            <File RelativePath="..\src\glwindow.cpp"/>
+            <File RelativePath="..\src\main.cpp"/>
+            <File RelativePath="..\src\targa.cpp"/>
+            <File RelativePath="..\src\terrain.cpp"/>
+            <File RelativePath="..\src\glee\GLee.c"/>
+        </Filter>
+        <Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="1058b420-19e1-11de-8bd3-11ab3ebb43c2">
+            <File RelativePath="..\src\example.h"/>
+            <File RelativePath="..\src\glslshader.h"/>
+            <File RelativePath="..\src\glwindow.h"/>
+            <File RelativePath="..\src\targa.h"/>
+            <File RelativePath="..\src\terrain.h"/>
+            <File RelativePath="..\src\glee\GLee.h"/>
+            <File RelativePath="..\src\glx\glext.h"/>
+        </Filter>
+        <Filter Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav" Name="Resource Files" UniqueIdentifier="1058b421-19e1-11de-8bd3-11ab3ebb43c2"/>
+    </Files>
+    <Globals/>
+</VisualStudioProject>

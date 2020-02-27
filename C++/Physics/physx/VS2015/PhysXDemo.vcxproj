@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\PhysXDemo\Camera.cpp" />
+    <ClCompile Include="..\PhysXDemo\CharDisplacer.cpp" />
+    <ClCompile Include="..\PhysXDemo\DebugUtils.cpp" />
+    <ClCompile Include="..\PhysXDemo\DemoApp.cpp" />
+    <ClCompile Include="..\PhysXDemo\Level.cpp" />
+    <ClCompile Include="..\PhysXDemo\main.cpp" />
+    <ClCompile Include="..\PhysXDemo\Mesh.cpp" />
+    <ClCompile Include="..\PhysXDemo\PhysicsWorld.cpp" />
+    <ClCompile Include="..\PhysXDemo\raw_mouse.cpp" />
+    <ClCompile Include="..\PhysXDemo\Trigger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PhysXDemo\Camera.h" />
+    <ClInclude Include="..\PhysXDemo\CharDisplacer.h" />
+    <ClInclude Include="..\PhysXDemo\DebugUtils.h" />
+    <ClInclude Include="..\PhysXDemo\DemoApp.h" />
+    <ClInclude Include="..\PhysXDemo\Level.h" />
+    <ClInclude Include="..\PhysXDemo\Mesh.h" />
+    <ClInclude Include="..\PhysXDemo\PhysicsWorld.h" />
+    <ClInclude Include="..\PhysXDemo\raw_mouse.h" />
+    <ClInclude Include="..\PhysXDemo\Trigger.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F6B26497-16A9-4207-9AD4-E58939ED55A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MasterDemo</RootNamespace>
+    <ProjectName>PhysXDemo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PX_PHYSX_CHARACTER_STATIC_LIB;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)PX_PHYSX_CHARACTER_STATIC_LIB;</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996;4099;4244;</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>../PhysXDemo/PhysX/include;../PhysXDemo/PhysX/Source/foundation/include;../PhysXDemo/PhysX/include/extensions</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../PhysXDemo/GL/Lib;../PhysXDemo/Math/Lib;../PhysXDemo/PhysX/Lib/VS2015</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);GLAUX.lib;opengl32.LIB;glew32.lib;glew32s.lib;H3DMath.lib;</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt;MSVCRT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)PX_PHYSX_CHARACTER_STATIC_LIB;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../PhysXDemo/PhysX/include;../PhysXDemo/PhysX/Source/foundation/include;../PhysXDemo/PhysX/include/extensions</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4099;4244</DisableSpecificWarnings>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);GLAUX.lib;opengl32.LIB;glew32.lib;glew32s.lib;H3DMath.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../PhysXDemo/GL/Lib;../PhysXDemo/Math/Lib;../PhysXDemo/PhysX/Lib/VS2015</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt;</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
