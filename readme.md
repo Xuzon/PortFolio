@@ -2,10 +2,10 @@
 
 This is Daniel Garrido (Xuzon) personal portfolio, The games I worked on **are not** open source
 - [Games](#games)
-- [C](#c)
-- [C-Sharp](#c-sharp)
-- [Java](#java)
+- [C#](#c-sharp)
 - [C++](#cpp)
+- [C](#c)
+- [Java](#java)
 - [Shaders](#shaders)
 - [MySQL](#sql)
 
@@ -17,7 +17,22 @@ This is Daniel Garrido (Xuzon) personal portfolio, The games I worked on **are n
 - [Space is our Land](https://www.indiedb.com/games/space-is-our-land)
   ![SIOLImage](https://media.indiedb.com/images/games/1/36/35888/BoxShot.jpg)
 
+# C#
 
+Was my first OOP language, I was self-tought with this language, when I first started with it I'd only known C,
+so it was a challenge to learn OOP by my own, I have more projects with this language using Unity3D, if you want to know more talk with me
+
+# C++
+
+* [Image processing software](https://github.com/Xuzon/ImageProcessing) (Face recognition, brightness, contrast, different image effects). I used QT for UI
+
+* [MUSVI](https://github.com/MUSVI-LPRO) a tablet application to translate rythm into partitures, specially designed for school learning
+[Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
+
+* [UCM Master's Degree on Game Development](http://videojuegos-ucm.es/)
+
+### Examples
+ - [Games](#games)
 
 # C
 
@@ -30,14 +45,6 @@ Was my first high level language, before this I've only programmed with assembly
 * **Multithreaded** programming.
 * **Distributed** programming.
 * **Inverse engineering** with the Mirai BotNet source code
-
-# C-Sharp
-
-Was my first OOP language, I was self-tought with this language, when I first started with it I'd only known C,
-so it was a challenge to learn OOP by my own, I have more projects with this language using Unity3D, if you want to know more talk with me
-
-### Examples
- - [Games](#games)
 
 # Java
 
@@ -54,18 +61,6 @@ My most used language in the college, I made a lot of stuff in Java
 * [Secure server](https://github.com/Xuzon/SegLab) where you can store and retrieve documents 
 * [Server](https://github.com/Xuzon/MultiScreen) that use FFMPEG to split a video into the columns and rows you want and stream it 
 * DB (MySql, MongoDB, XML)
-
-
-# C++
-
-* [Image processing software](https://github.com/Xuzon/ImageProcessing) (Face recognition, brightness, contrast, different image effects). I used QT for UI
-
-* [MUSVI](https://github.com/MUSVI-LPRO) a tablet application to translate rythm into partitures, specially designed for school learning
-[Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
-
-* [UCM Master's Degree on Game Development](http://videojuegos-ucm.es/)
-
-
 
 
 # Shaders
