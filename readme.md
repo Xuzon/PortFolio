@@ -31,9 +31,6 @@ so it was a challenge to learn OOP by my own, I have more projects with this lan
 
 * [UCM Master's Degree on Game Development](http://videojuegos-ucm.es/)
 
-### Examples
- - [Games](#games)
-
 # C
 
 Was my first high level language, before this I've only programmed with assembly.
