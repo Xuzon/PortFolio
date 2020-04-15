@@ -24,12 +24,15 @@ so it was a challenge to learn OOP by my own, I have more projects with this lan
 
 # C++
 
-* [Image processing software](https://github.com/Xuzon/ImageProcessing) (Face recognition, brightness, contrast, different image effects). I used QT for UI
-
-* [MUSVI](https://github.com/MUSVI-LPRO) a tablet application to translate rythm into partitures, specially designed for school learning
-[Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
 
 * [UCM Master's Degree on Game Development](http://videojuegos-ucm.es/)
+
+* [MUSVI](https://github.com/Xuzon/MUSVI) a tablet application to translate rythm into partitures, specially designed for school learning
+[Telefonica Think Big prize winner](http://catedraietelefonica.webs4.uvigo.es/premios-think-big-h4g-vigo/)
+
+
+* [Image processing software](https://github.com/Xuzon/ImageProcessing) (Face recognition, brightness, contrast, different image effects). I used QT for UI
+
 
 # C
 
