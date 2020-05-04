@@ -1,5 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+///<summary>
+/// This class will Spawn a pool of actors at the beginning and use the pool to spawn periodically
+/// some actors if active
+///</summary>
 #pragma once
 
 #include "CoreMinimal.h"
@@ -20,7 +22,9 @@ public:
 	USpawnerComponent();
 
 protected:
-	// Called when the game starts
+	///<summary>
+	/// Intitialize the targets, initialize the pool, set the spawn timer
+	///</summary>
 	virtual void BeginPlay() override;
 private:
 	FTimerHandle timeHandler;
@@ -81,10 +85,14 @@ public:
 	//True to activate the spawn, false to disable it
 	UPROPERTY(EditAnywhere, Category = "Spawn Settings")
 		bool willSpawn;
-	//Disables any given actor
+	///<summary>
+	/// Disable any given actor and its components, it doesn't need to be spawned with a spawner
+	///</summary>
 	UFUNCTION(BlueprintCallable)
 		static void DeactivateActor(AActor* actor);
+	///<summary>
 	//Activates or stops the spawner
+	///</summary>
 	UFUNCTION(BlueprintCallable)
 		void SetSpawnerActive(bool active);
 	///<summary>

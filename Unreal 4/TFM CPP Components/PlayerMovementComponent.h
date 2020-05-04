@@ -1,4 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+///<summary>
+/// This class will manage all the movement of the player, this class is heavily dependant on raycastings
+/// as we don't want to let Unreal Physics Engine manage the movement, as it becomes weird, for example
+/// in this type of movement more "arcadish", we don't have any type of acceleration, also,
+/// I had to do my own FixedUpdate to set the movement DETERMINISTIC as unreal engine 4 movement does really
+/// weird things when performance drops (tunneling, slower or faster movement etc...)
+///</summary>
 
 #pragma once
 
@@ -42,7 +48,9 @@ protected:
 	//current momentum air speed
 	float airSpeed;
 
-	// Called when the game starts
+	///<summary>
+	/// Get the capsule component of the player and create the type of raytracing we are doing
+	///</summary>
 	virtual void BeginPlay() override;
 
 	///<summary>
@@ -135,13 +143,13 @@ public:
 
 
 	///<summary>
-	/// Get last realized movement
+	/// Reset the air acummulated velocity
 	///</summary>
 	UFUNCTION(BlueprintCallable, Category = "Movement")
 	void ResetAirVelocity();	
 	
 	///<summary>
-	/// Get last realized movement
+	/// isGrounded getter
 	///</summary>
 	UFUNCTION(BlueprintCallable, Category = "Getters")
 	bool GetIsGrounded() const;

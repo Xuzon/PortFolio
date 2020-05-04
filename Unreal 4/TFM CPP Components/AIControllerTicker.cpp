@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "AIControllerTicker.h"
 #include "AIMetaController.h"
@@ -16,7 +14,10 @@ UAIControllerTicker::UAIControllerTicker()
 }
 
 
-// Called when the game starts
+///<summary>
+/// Get the reference to the meta controller using Unreal API to search for the class
+/// If found subscribe this ticker to the meta controller 
+///</summary>
 void UAIControllerTicker::BeginPlay()
 {
 	Super::BeginPlay();

@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "PlayerMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Math/UnrealMathUtility.h"
@@ -16,12 +13,10 @@ UPlayerMovementComponent::UPlayerMovementComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
-}
 
 
 ///<summary>
-/// Get the capsule component of the player
+/// Get the capsule component of the player and create the type of raytracing we are doing
 ///</summary>
 void UPlayerMovementComponent::BeginPlay()
 {
@@ -46,6 +41,7 @@ void UPlayerMovementComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 		return;
 	}
 	accumulatedTime += DeltaTime;
+	//Fixed update
 	while (accumulatedTime >= FIXED_TIME)
 	{
 		accumulatedTime -= FIXED_TIME;
@@ -361,17 +357,24 @@ void UPlayerMovementComponent::Gravity(float deltaTime)
 	}
 }
 
-
+///<summary>
+/// Get last realized movement
+///</summary>
 FVector UPlayerMovementComponent::GetLastMovement() const
 {
 	return lastGroundMovement;
 }
 
+///<summary>
+/// isGrounded getter
+///</summary>
 bool UPlayerMovementComponent::GetIsGrounded() const
 {
 	return isGrounded;
 }
-
+///<summary>
+/// Reset the air acummulated velocity
+///</summary>
 void UPlayerMovementComponent::ResetAirVelocity()
 {
 	this->currentGravity = 0;

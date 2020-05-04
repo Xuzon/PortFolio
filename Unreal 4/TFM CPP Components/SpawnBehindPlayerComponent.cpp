@@ -24,7 +24,9 @@ void USpawnBehindPlayerComponent::BeginPlay()
 }
 
 
-// Called every frame
+///<summary>
+/// Periodically, after "timeBetweenSpawns" use the spawner to spawn "numberOfSpawns" actors outside the screen
+///</summary>
 void USpawnBehindPlayerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
@@ -42,12 +44,15 @@ void USpawnBehindPlayerComponent::TickComponent(float DeltaTime, ELevelTick Tick
 			spawner->SpawnOnPos(nonScreenPos);
 		}
 	}
-	// ...
 }
 
+///<summary>
+/// Get a position outside of the screen direction "dir" from "actor to follow" into the Navmesh
+///</summary>
 FVector USpawnBehindPlayerComponent::GetNotScreenPos(FVector dir) const
 {
 	FVector toRet = FVector::ZeroVector;
+	//iterate over diferent positions from the actor and check it is outside the screen
 	for (int i = 0; i < maxDistanceToSpawnInMeters; ++i)
 	{
 		toRet = actorToFollow->GetActorLocation() + dir * i * 100;
@@ -59,11 +64,13 @@ FVector USpawnBehindPlayerComponent::GetNotScreenPos(FVector dir) const
 		}
 		toRet = FVector::ZeroVector;
 	}
+	//if didn't get outside screen pos, get the max position and log
 	if (toRet.SizeSquared() == 0)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Position to screen too short"));
 		toRet = actorToFollow->GetActorLocation() + dir * maxDistanceToSpawnInMeters * 100;
 	}
+	//project the point into the navmesh, as I'm using it for AI
 	const UNavigationSystemBase* navigation = this->GetOwner()->GetWorld()->GetNavigationSystem();
 	if (navigation != nullptr && navigation->GetMainNavData() != nullptr)
 	{

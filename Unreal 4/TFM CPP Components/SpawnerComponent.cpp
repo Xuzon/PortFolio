@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "SpawnerComponent.h"
 #include "Engine/World.h"
 
@@ -14,8 +11,9 @@ USpawnerComponent::USpawnerComponent()
 	// ...
 }
 
-
-// Called when the game starts
+///<summary>
+/// Intitialize the targets, initialize the pool, set the spawn timer
+///</summary>
 void USpawnerComponent::BeginPlay()
 {
 	Super::BeginPlay();
@@ -29,7 +27,6 @@ void USpawnerComponent::BeginPlay()
 	}
 }
 
-
 ///<summary>
 /// If had no assigned targets get self or attached targets
 ///</summary>
@@ -41,7 +38,7 @@ void USpawnerComponent::InitializeTargets()
 		return;
 	}
 	//Check if have attached actors or I'm the target
-	TArray<AActor*> attachedActors;
+	TArray<AActor *> attachedActors;
 	GetOwner()->GetAttachedActors(attachedActors, true);
 	if (attachedActors.Num() == 0)
 	{
@@ -59,7 +56,7 @@ void USpawnerComponent::InitializeTargets()
 ///<summary>
 /// Callback that is called when an object I spawned is destroyed
 ///</summary>
-void USpawnerComponent::OnDestroyedPooledActor(AActor* actor)
+void USpawnerComponent::OnDestroyedPooledActor(AActor *actor)
 {
 	UE_LOG(LogTemp, Warning, TEXT("SOMETHING HAS KILLED A FAN"));
 	pool.Remove(actor);
@@ -72,10 +69,10 @@ void USpawnerComponent::FillPool()
 {
 	FActorSpawnParameters params = FActorSpawnParameters();
 	params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
-	//Instantiate the maximum amount of fans. Disable the ones not wanted initially.
+	//Instantiate the maximum amount of actors. Disable the ones not wanted initially.
 	for (int i = 0; i < maxActors; i++)
 	{
-		AActor* toAdd = GetWorld()->SpawnActor<AActor>(
+		AActor *toAdd = GetWorld()->SpawnActor<AActor>(
 			spawnableBlueprint.Get(),
 			FTransform(targets[FMath::RandRange(0, targets.Num() - 1)]->GetActorLocation() + spawnOffset),
 			params);
@@ -138,7 +135,7 @@ void USpawnerComponent::SpawnOnPos(FVector pos)
 ///<summary>
 /// Wrapper to teleport and activate one actor
 ///</summary>
-void USpawnerComponent::ActivateActor(AActor* actor, const FVector posToSpawn, const FRotator rotation)
+void USpawnerComponent::ActivateActor(AActor *actor, const FVector posToSpawn, const FRotator rotation)
 {
 	if (!IsValid(actor))
 	{
@@ -153,11 +150,14 @@ void USpawnerComponent::ActivateActor(AActor* actor, const FVector posToSpawn, c
 ///<summary>
 /// Static wrapper to deactivate one actor
 ///</summary>
-void USpawnerComponent::DeactivateActor(AActor* actor)
+void USpawnerComponent::DeactivateActor(AActor *actor)
 {
 	ChangeActorState(actor, false);
 }
 
+///<summary>
+//Activates or stops the spawner (timer and flag)
+///</summary>
 void USpawnerComponent::SetSpawnerActive(bool active)
 {
 	//check trying to set same state
@@ -166,16 +166,21 @@ void USpawnerComponent::SetSpawnerActive(bool active)
 		return;
 	}
 	willSpawn = active;
-	if (!active) {
-		if (GetWorld()->GetTimerManager().IsTimerActive(timeHandler)) {
+	if (!active)
+	{
+		if (GetWorld()->GetTimerManager().IsTimerActive(timeHandler))
+		{
 			GetWorld()->GetTimerManager().PauseTimer(timeHandler);
 		}
 	}
-	else if (!GetWorld()->GetTimerManager().IsTimerActive(timeHandler)) {
-		GetWorld()->GetTimerManager().UnPauseTimer(timeHandler);
+	else
+	{
+		if (!GetWorld()->GetTimerManager().IsTimerActive(timeHandler))
+		{
+			GetWorld()->GetTimerManager().UnPauseTimer(timeHandler);
+		}
 	}
 }
-
 
 ///<summary>
 /// Change the state of all actors in pool
@@ -185,7 +190,7 @@ void USpawnerComponent::ChangeAllState(bool state)
 	int selectedPoint = 0;
 	for (int i = 0; i < pool.Num(); ++i)
 	{
-		AActor* actor = pool[i];
+		AActor *actor = pool[i];
 		if (!IsValid(actor))
 		{
 			UE_LOG(LogTemp, Warning, TEXT("NULL PTR ON CHANGE ALL STATE, THIS WILL NEVER HAVE TO BE TRIGGERED"));
@@ -205,7 +210,7 @@ void USpawnerComponent::ChangeAllState(bool state)
 ///<summary>
 /// Change the state of an actor, hide/unhide it, disable/enable collision, tick and components
 ///</summary>
-void USpawnerComponent::ChangeActorState(AActor* actor, bool state)
+void USpawnerComponent::ChangeActorState(AActor *actor, bool state)
 {
 	if (!IsValid(actor))
 	{
@@ -221,6 +226,3 @@ void USpawnerComponent::ChangeActorState(AActor* actor, bool state)
 		component->SetComponentTickEnabled(state);
 	}
 }
-
-
-

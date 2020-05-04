@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "AIMetaController.h"
 
@@ -18,8 +16,9 @@ void AAIMetaController::BeginPlay()
 	Super::BeginPlay();
 	
 }
-
-// Called every frame
+///<summary>
+/// Called every frame, manage my tickers list
+///<summary>
 void AAIMetaController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -43,8 +42,8 @@ void AAIMetaController::SubscribeTicker(UAIControllerTicker* toAdd)
 }
 
 ///<summary>
-	/// Remove a ticker from this controller
-	///</summary>
+/// Remove a ticker from this controller
+///</summary>
 void AAIMetaController::UnSusbcribeTicker(UAIControllerTicker* toRemove)
 {
 	controllerList.Remove(toRemove);

@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "SpawnersControllerComponent.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
@@ -45,7 +42,6 @@ void USpawnersControllerComponent::TickComponent(float DeltaTime, ELevelTick Tic
 		currentSpawner = closestSpawner;
 		SetCurrentSpawnerState(true);
 	}
-	// ...
 }
 
 ///<summary>

@@ -1,5 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+///<summary>
+/// this class is used to manage how many entities with the AITickerComponent
+/// call its "callback" tick, we need it because we have a lot of entities in the game
+/// each frame
+///</summary>
 #pragma once
 
 #include "CoreMinimal.h"

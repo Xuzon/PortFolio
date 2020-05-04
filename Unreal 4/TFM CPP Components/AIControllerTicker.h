@@ -1,5 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+///<summary>
+/// this class is used to subscribe to the MetaController and let my "callback" tick
+/// managed by the meta controller, so I can manage how many actors, components etc... are called
+/// each frame
+///</summary>
 #pragma once
 
 #include "CoreMinimal.h"
@@ -8,6 +11,10 @@
 
 class AAIMetaController;
 
+///<summary>
+/// Declare a type of multicasting delegate called, FOnTicked, 
+/// we need the F because unreal reflection system needs it
+///</summary>
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnTicked);
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class HELLOFFAME_API UAIControllerTicker : public UActorComponent
@@ -19,7 +26,10 @@ public:
 	UAIControllerTicker();
 
 protected:
-	// Called when the game starts
+	///<summary>
+	/// Get the reference to the meta controller using Unreal API to search for the class
+	/// If found subscribe this ticker to the meta controller 
+	///</summary>
 	virtual void BeginPlay() override;
 	AAIMetaController* metaController;
 

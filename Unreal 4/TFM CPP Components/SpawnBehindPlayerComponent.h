@@ -1,5 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+///<summary>
+/// This class is used to spawn actors (focused on AI, as we are using Navmesh)
+///  outside of the screen periodically
+///</summary>
 #pragma once
 
 #include "CoreMinimal.h"
@@ -26,10 +28,15 @@ protected:
 	AActor* actorToFollow = nullptr;
 	// Called when the game starts
 	virtual void BeginPlay() override;
+	///<summary>
+	/// Get a position outside of the screen direction "dir" from "actor to follow" into the Navmesh
+	///</summary>
 	FVector GetNotScreenPos(FVector dir) const;
 
 public:	
-	// Called every frame
+	///<summary>
+	/// Periodically, after "timeBetweenSpawns" use the spawner to spawn "numberOfSpawns" actors outside the screen
+	///</summary>
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere, Category = "Spawn Settings")

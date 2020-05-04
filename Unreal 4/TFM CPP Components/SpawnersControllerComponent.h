@@ -1,5 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+///<summary>
+/// This class is used to manage a special type of spawners (spawnersClassToSearch) that are placed in the map 
+/// always stay active the closest spawners to the player but it is on a SafeZone
+///</summary>
 #pragma once
 
 #include "CoreMinimal.h"

@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "IKCrazyArmsComponent.h"
 #include "Math/UnrealMathUtility.h"
@@ -15,8 +13,9 @@ UIKCrazyArmsComponent::UIKCrazyArmsComponent()
 	// ...
 }
 
-
-// Called when the game starts
+///<summary>
+/// Get the animator class of this owner, it need to be an ACharacter
+///</summary>
 void UIKCrazyArmsComponent::BeginPlay()
 {
 	Super::BeginPlay();
@@ -26,8 +25,6 @@ void UIKCrazyArmsComponent::BeginPlay()
 		return;
 	}
 	animator = Cast<UCrazyArmsAnimator>(character->GetMesh()->GetAnimInstance());
-	// ...
-	
 }
 
 
@@ -38,6 +35,9 @@ void UIKCrazyArmsComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 	DoAnim(DeltaTime);
 }
 
+///<summary>
+///By the axis we are changing change its angle using euler
+///</summary>
 void UIKCrazyArmsComponent::AddToRotator(FRotator& rotator, int& axis, float angleToAdd, FVector& dir)
 {
 	FVector euler = rotator.Euler();
@@ -55,6 +55,10 @@ void UIKCrazyArmsComponent::AddToRotator(FRotator& rotator, int& axis, float ang
 	}
 	rotator = rotator.MakeFromEuler(euler);
 }
+
+///<summary>
+/// Add the "angleToAdd" to the angle, if reached max, flip, also change the direction and randomly change axis
+///</summary>
 void UIKCrazyArmsComponent::AddToAngle(float& angle, float angleToAdd, int& axis, float& dir)
 {
 	float sign = dir < 0 ? -1 : 1;
@@ -67,6 +71,9 @@ void UIKCrazyArmsComponent::AddToAngle(float& angle, float angleToAdd, int& axis
 	}
 }
 
+///<summary>
+/// Add the angle of this frame by speed and delta time to the rotators
+///</summary>
 void UIKCrazyArmsComponent::DoAnim(float DeltaTime)
 {
 	if (animator == nullptr)
